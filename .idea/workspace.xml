@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5b61cd43-2528-4d45-9896-09702fb82b63" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Enum" />
+        <option value="AnnotationType" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "lha4598"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/lha4598/SpringBoot3.git",
+    "accountId": "b28f968c-cba7-4ff7-bf42-13a8c6857167"
+  }
+}]]></component>
+  <component name="JpbToolWindowState">
+    <option name="isToolWindowVisible" value="false" />
+  </component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2mB5lZGDTvJIeLxbtvc3s989v0t" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Maven.identity-service [clean].executor": "Run",
+    "Maven.identity-service [install].executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Spring Boot.IdentityServiceApplication.executor": "Run",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/LUUHAIANH/Downloads/Compressed/spring-boot-learning-master/spring-boot-learning-master",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "com.intellij.jpb.viewMode",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.devteria.identity_service.controller" />
+      <recent name="com.devteria.identity_service.mapper" />
+      <recent name="com.devteria.identity_service.dto.response" />
+      <recent name="com.devteria.identity_service.dto.request" />
+      <recent name="com.devteria.identity_service.entity" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="IdentityServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="identity-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.devteria.identity_service.IdentityServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-b114ca120d71-intellij.indexing.shared.core-IU-242.20224.300" />
+        <option value="bundled-js-predefined-d6986cc7102b-410509235cf1-JavaScript-IU-242.20224.300" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5b61cd43-2528-4d45-9896-09702fb82b63" name="Changes" comment="" />
+      <created>1726537280851</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1726537280851</updated>
+      <workItem from="1726537281906" duration="3630000" />
+      <workItem from="1726541900459" duration="15000" />
+      <workItem from="1726562270724" duration="1988000" />
+      <workItem from="1726564737659" duration="660000" />
+      <workItem from="1726622847876" duration="5785000" />
+      <workItem from="1727003439950" duration="2167000" />
+      <workItem from="1727185482560" duration="6127000" />
+      <workItem from="1727232135618" duration="2270000" />
+      <workItem from="1727275391052" duration="2937000" />
+      <workItem from="1727278373252" duration="4928000" />
+      <workItem from="1727360027496" duration="4793000" />
+      <workItem from="1727449615439" duration="688000" />
+      <workItem from="1727451023198" duration="29000" />
+      <workItem from="1727619630921" duration="1866000" />
+      <workItem from="1727789299091" duration="4599000" />
+      <workItem from="1728090158756" duration="3495000" />
+      <workItem from="1728185374958" duration="894000" />
+      <workItem from="1728265038888" duration="2603000" />
+      <workItem from="1728521736386" duration="6675000" />
+      <workItem from="1728533328140" duration="1982000" />
+      <workItem from="1728544779856" duration="5314000" />
+      <workItem from="1728567122145" duration="8645000" />
+      <workItem from="1728873768062" duration="3970000" />
+      <workItem from="1728895407908" duration="1663000" />
+      <workItem from="1728897098468" duration="4075000" />
+      <workItem from="1729000443359" duration="3873000" />
+      <workItem from="1729044769830" duration="5389000" />
+      <workItem from="1729072839516" duration="1866000" />
+      <workItem from="1729089488617" duration="2664000" />
+      <workItem from="1729092191975" duration="1433000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

@@ -1,0 +1,2792 @@
+Index: .idea/uiDesigner.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/uiDesigner.xml b/.idea/uiDesigner.xml
+new file mode 100644
+--- /dev/null	(date 1727233129660)
++++ b/.idea/uiDesigner.xml	(date 1727233129660)
+@@ -0,0 +1,124 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="Palette2">
++    <group name="Swing">
++      <item class="com.intellij.uiDesigner.HSpacer" tooltip-text="Horizontal Spacer" icon="/com/intellij/uiDesigner/icons/hspacer.svg" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="1" hsize-policy="6" anchor="0" fill="1" />
++      </item>
++      <item class="com.intellij.uiDesigner.VSpacer" tooltip-text="Vertical Spacer" icon="/com/intellij/uiDesigner/icons/vspacer.svg" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="6" hsize-policy="1" anchor="0" fill="2" />
++      </item>
++      <item class="javax.swing.JPanel" icon="/com/intellij/uiDesigner/icons/panel.svg" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="3" hsize-policy="3" anchor="0" fill="3" />
++      </item>
++      <item class="javax.swing.JScrollPane" icon="/com/intellij/uiDesigner/icons/scrollPane.svg" removable="false" auto-create-binding="false" can-attach-label="true">
++        <default-constraints vsize-policy="7" hsize-policy="7" anchor="0" fill="3" />
++      </item>
++      <item class="javax.swing.JButton" icon="/com/intellij/uiDesigner/icons/button.svg" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="3" anchor="0" fill="1" />
++        <initial-values>
++          <property name="text" value="Button" />
++        </initial-values>
++      </item>
++      <item class="javax.swing.JRadioButton" icon="/com/intellij/uiDesigner/icons/radioButton.svg" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="3" anchor="8" fill="0" />
++        <initial-values>
++          <property name="text" value="RadioButton" />
++        </initial-values>
++      </item>
++      <item class="javax.swing.JCheckBox" icon="/com/intellij/uiDesigner/icons/checkBox.svg" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="3" anchor="8" fill="0" />
++        <initial-values>
++          <property name="text" value="CheckBox" />
++        </initial-values>
++      </item>
++      <item class="javax.swing.JLabel" icon="/com/intellij/uiDesigner/icons/label.svg" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="0" anchor="8" fill="0" />
++        <initial-values>
++          <property name="text" value="Label" />
++        </initial-values>
++      </item>
++      <item class="javax.swing.JTextField" icon="/com/intellij/uiDesigner/icons/textField.svg" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1">
++          <preferred-size width="150" height="-1" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JPasswordField" icon="/com/intellij/uiDesigner/icons/passwordField.svg" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1">
++          <preferred-size width="150" height="-1" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JFormattedTextField" icon="/com/intellij/uiDesigner/icons/formattedTextField.svg" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1">
++          <preferred-size width="150" height="-1" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JTextArea" icon="/com/intellij/uiDesigner/icons/textArea.svg" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
++          <preferred-size width="150" height="50" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JTextPane" icon="/com/intellij/uiDesigner/icons/textPane.svg" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
++          <preferred-size width="150" height="50" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JEditorPane" icon="/com/intellij/uiDesigner/icons/editorPane.svg" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
++          <preferred-size width="150" height="50" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JComboBox" icon="/com/intellij/uiDesigner/icons/comboBox.svg" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="0" hsize-policy="2" anchor="8" fill="1" />
++      </item>
++      <item class="javax.swing.JTable" icon="/com/intellij/uiDesigner/icons/table.svg" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
++          <preferred-size width="150" height="50" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JList" icon="/com/intellij/uiDesigner/icons/list.svg" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="6" hsize-policy="2" anchor="0" fill="3">
++          <preferred-size width="150" height="50" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JTree" icon="/com/intellij/uiDesigner/icons/tree.svg" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
++          <preferred-size width="150" height="50" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JTabbedPane" icon="/com/intellij/uiDesigner/icons/tabbedPane.svg" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="3" hsize-policy="3" anchor="0" fill="3">
++          <preferred-size width="200" height="200" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JSplitPane" icon="/com/intellij/uiDesigner/icons/splitPane.svg" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="3" hsize-policy="3" anchor="0" fill="3">
++          <preferred-size width="200" height="200" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JSpinner" icon="/com/intellij/uiDesigner/icons/spinner.svg" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1" />
++      </item>
++      <item class="javax.swing.JSlider" icon="/com/intellij/uiDesigner/icons/slider.svg" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1" />
++      </item>
++      <item class="javax.swing.JSeparator" icon="/com/intellij/uiDesigner/icons/separator.svg" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3" />
++      </item>
++      <item class="javax.swing.JProgressBar" icon="/com/intellij/uiDesigner/icons/progressbar.svg" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="0" fill="1" />
++      </item>
++      <item class="javax.swing.JToolBar" icon="/com/intellij/uiDesigner/icons/toolbar.svg" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="0" fill="1">
++          <preferred-size width="-1" height="20" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JToolBar$Separator" icon="/com/intellij/uiDesigner/icons/toolbarSeparator.svg" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="0" anchor="0" fill="1" />
++      </item>
++      <item class="javax.swing.JScrollBar" icon="/com/intellij/uiDesigner/icons/scrollbar.svg" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="6" hsize-policy="0" anchor="0" fill="2" />
++      </item>
++    </group>
++  </component>
++</project>
+\ No newline at end of file
+Index: identity-service/src/main/java/com/devteria/identity_service/exception/AppException.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/identity-service/src/main/java/com/devteria/identity_service/exception/AppException.java b/identity-service/src/main/java/com/devteria/identity_service/exception/AppException.java
+new file mode 100644
+--- /dev/null	(date 1727191453300)
++++ b/identity-service/src/main/java/com/devteria/identity_service/exception/AppException.java	(date 1727191453300)
+@@ -0,0 +1,18 @@
++package com.devteria.identity_service.exception;
++
++public class AppException extends RuntimeException {
++    private ErrorCode errorCode;
++
++    public AppException(ErrorCode errorCode) {
++        super(errorCode.getMessage());
++        this.errorCode = errorCode;
++    }
++
++    public ErrorCode getErrorCode() {
++        return errorCode;
++    }
++
++    public void setErrorCode(ErrorCode errorCode) {
++        this.errorCode = errorCode;
++    }
++}
+Index: identity-service/src/main/java/com/devteria/identity_service/dto/request/AuthenticationRequest.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/identity-service/src/main/java/com/devteria/identity_service/dto/request/AuthenticationRequest.java b/identity-service/src/main/java/com/devteria/identity_service/dto/request/AuthenticationRequest.java
+new file mode 100644
+--- /dev/null	(date 1727362672402)
++++ b/identity-service/src/main/java/com/devteria/identity_service/dto/request/AuthenticationRequest.java	(date 1727362672402)
+@@ -0,0 +1,14 @@
++package com.devteria.identity_service.dto.request;
++
++import lombok.*;
++import lombok.experimental.FieldDefaults;
++
++@Data
++@NoArgsConstructor
++@AllArgsConstructor
++@Builder
++@FieldDefaults(level = AccessLevel.PRIVATE)
++public class AuthenticationRequest {
++    String username;
++    String password;
++}
+Index: identity-service/src/main/java/com/devteria/identity_service/controller/AuthenticationController.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/identity-service/src/main/java/com/devteria/identity_service/controller/AuthenticationController.java b/identity-service/src/main/java/com/devteria/identity_service/controller/AuthenticationController.java
+new file mode 100644
+--- /dev/null	(date 1727793069975)
++++ b/identity-service/src/main/java/com/devteria/identity_service/controller/AuthenticationController.java	(date 1727793069975)
+@@ -0,0 +1,46 @@
++package com.devteria.identity_service.controller;
++
++
++import com.devteria.identity_service.dto.request.ApiResponse;
++import com.devteria.identity_service.dto.request.AuthenticationRequest;
++import com.devteria.identity_service.dto.request.IntrospectRequest;
++import com.devteria.identity_service.dto.response.AuthenticationResponse;
++import com.devteria.identity_service.dto.response.IntrospectResponse;
++import com.devteria.identity_service.service.AuthenticationService;
++import com.nimbusds.jose.JOSEException;
++import lombok.AccessLevel;
++import lombok.RequiredArgsConstructor;
++import lombok.experimental.FieldDefaults;
++import org.springframework.web.bind.annotation.PostMapping;
++import org.springframework.web.bind.annotation.RequestBody;
++import org.springframework.web.bind.annotation.RequestMapping;
++import org.springframework.web.bind.annotation.RestController;
++
++import java.text.ParseException;
++
++@RestController
++@RequestMapping("/auth")
++@RequiredArgsConstructor
++@FieldDefaults(level = AccessLevel.PRIVATE, makeFinal = true)
++public class AuthenticationController {
++    AuthenticationService authenticationService;
++
++    @PostMapping("/token")
++    ApiResponse<AuthenticationResponse> authenticate(@RequestBody AuthenticationRequest request) {
++        var result = authenticationService.authenticate(request);
++        return ApiResponse.<AuthenticationResponse>builder()
++                .result(result)
++                .build();
++
++    }
++
++    @PostMapping("/introspect")
++    ApiResponse<IntrospectResponse> authenticate(@RequestBody IntrospectRequest request)
++                throws ParseException, JOSEException {
++        var result = authenticationService.introspect(request);
++        return ApiResponse.<IntrospectResponse>builder()
++                .result(result)
++                .build();
++
++    }
++}
+Index: identity-service/src/main/java/com/devteria/identity_service/service/AuthenticationService.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/identity-service/src/main/java/com/devteria/identity_service/service/AuthenticationService.java b/identity-service/src/main/java/com/devteria/identity_service/service/AuthenticationService.java
+new file mode 100644
+--- /dev/null	(date 1729047939389)
++++ b/identity-service/src/main/java/com/devteria/identity_service/service/AuthenticationService.java	(date 1729047939389)
+@@ -0,0 +1,121 @@
++package com.devteria.identity_service.service;
++
++import com.devteria.identity_service.dto.request.AuthenticationRequest;
++import com.devteria.identity_service.dto.request.IntrospectRequest;
++import com.devteria.identity_service.dto.response.AuthenticationResponse;
++import com.devteria.identity_service.dto.response.IntrospectResponse;
++import com.devteria.identity_service.entity.User;
++import com.devteria.identity_service.exception.AppException;
++import com.devteria.identity_service.exception.ErrorCode;
++import com.devteria.identity_service.repository.UserRepository;
++import com.nimbusds.jose.*;
++import com.nimbusds.jose.crypto.MACSigner;
++import com.nimbusds.jose.crypto.MACVerifier;
++import com.nimbusds.jwt.JWTClaimsSet;
++import com.nimbusds.jwt.SignedJWT;
++import lombok.AccessLevel;
++import lombok.RequiredArgsConstructor;
++import lombok.experimental.FieldDefaults;
++import lombok.experimental.NonFinal;
++import lombok.extern.slf4j.Slf4j;
++import org.springframework.beans.factory.annotation.Value;
++import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
++import org.springframework.security.crypto.password.PasswordEncoder;
++import org.springframework.stereotype.Service;
++import org.springframework.util.CollectionUtils;
++
++import java.text.ParseException;
++import java.time.Instant;
++import java.time.temporal.ChronoUnit;
++import java.util.Date;
++import java.util.StringJoiner;
++
++@Slf4j
++@Service
++@RequiredArgsConstructor
++@FieldDefaults(level = AccessLevel.PRIVATE, makeFinal = true)
++public class AuthenticationService {
++    UserRepository userRepository;
++
++    //protected static final String SIGNED_KEY = "zq67ilKWF0EWZpRmaReLZgL3Lq1GydNho8aEnGP/MQr3fBsGCseV0+LauMR6MWYf";
++    //Vì khi có signedkey thì có thể issue ra token nên cần bảo mật SignedKey thật chặt chẽ bằng cách sử dụng trong Application.yaml
++    //khi team DEV deploy project lên môi trường cao hơn thì họ sẽ dùng singedKey khác
++
++    @NonFinal
++    @Value("${jwt.signerKey}")
++    protected String SIGNED_KEY;
++
++    public IntrospectResponse introspect(IntrospectRequest request) throws AppException, JOSEException, ParseException {
++        var token = request.getToken();
++
++        JWSVerifier verifier = new MACVerifier(SIGNED_KEY.getBytes()); //verify token
++
++        SignedJWT signedJWT = SignedJWT.parse(token);
++
++        Date expiryTime = signedJWT.getJWTClaimsSet().getExpirationTime();
++
++        var verified = signedJWT.verify(verifier);
++
++        return  IntrospectResponse.builder()
++                .valid(verified && expiryTime.after(new Date()))
++                .build();
++    }
++
++    public AuthenticationResponse authenticate(AuthenticationRequest request){
++        var user = userRepository.findByUsername(request.getUsername()).orElseThrow(() -> new AppException(ErrorCode.USER_NOT_EXISTED));
++
++        PasswordEncoder passwordEncoder = new BCryptPasswordEncoder();
++        boolean authenticated =  passwordEncoder.matches(request.getPassword(),
++                user.getPassword());
++
++        if(!authenticated)
++            throw new AppException(ErrorCode.UNAUTHENTICATED);
++
++        var token = generateToken(user);
++
++        return AuthenticationResponse.builder()
++                .token(token)
++                .authenticated(true)
++                .build();
++    }
++
++    private String generateToken(User user) {
++        JWSHeader header = new JWSHeader(JWSAlgorithm.HS512); //tạo header, thuật toán HS512 đủ mạnh
++
++        JWTClaimsSet jwtClaimsSet = new JWTClaimsSet.Builder() // tạo claimSet cho payload
++                .subject(user.getUsername())  //đại diện cho user đăng nhập
++                .issuer("devteria.com") //xác định xem token dc issue từ ai?
++                .issueTime(new Date())  //thời gian bắt đầu
++                .expirationTime(new Date(
++                        Instant.now().plus(1, ChronoUnit.HOURS).toEpochMilli())) // xác định tời gian hết hạn sau 1 tiếng
++                .claim("scope", buildScope(user)) //tạo thêm các claim phù hp
++                .build();
++
++        Payload payload = new Payload(jwtClaimsSet.toJSONObject()); // to payload
++
++        JWSObject jwsObject = new JWSObject(header, payload); // truyền vào header và payload
++
++        try {
++            jwsObject.sign(new MACSigner(SIGNED_KEY.getBytes()));
++
++            return jwsObject.serialize();
++        } catch (JOSEException e) {
++            log.error("Cannot creat token", e);
++            throw new RuntimeException(e);
++        }
++    }
++
++    private String buildScope(User user){
++        StringJoiner stringJoiner = new StringJoiner(" ");
++        if (!CollectionUtils.isEmpty(user.getRoles()))
++            user.getRoles().forEach(role -> {
++                stringJoiner.add("ROLE_" + role.getName());
++                if (!CollectionUtils.isEmpty(role.getPermissions()))
++                    role.getPermissions()
++                            .forEach(permission -> stringJoiner.add(permission.getName()));
++            });
++
++
++        return stringJoiner.toString();
++    }
++}
+Index: identity-service/src/main/java/com/devteria/identity_service/dto/response/AuthenticationResponse.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/identity-service/src/main/java/com/devteria/identity_service/dto/response/AuthenticationResponse.java b/identity-service/src/main/java/com/devteria/identity_service/dto/response/AuthenticationResponse.java
+new file mode 100644
+--- /dev/null	(date 1727789446568)
++++ b/identity-service/src/main/java/com/devteria/identity_service/dto/response/AuthenticationResponse.java	(date 1727789446568)
+@@ -0,0 +1,14 @@
++package com.devteria.identity_service.dto.response;
++
++import lombok.*;
++import lombok.experimental.FieldDefaults;
++
++@Data
++@NoArgsConstructor
++@AllArgsConstructor
++@Builder
++@FieldDefaults(level = AccessLevel.PRIVATE)
++public class AuthenticationResponse {
++    String token;
++    boolean authenticated;
++}
+Index: .idea/dataSources.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/dataSources.xml b/.idea/dataSources.xml
+new file mode 100644
+--- /dev/null	(date 1726622874916)
++++ b/.idea/dataSources.xml	(date 1726622874916)
+@@ -0,0 +1,19 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
++    <data-source source="LOCAL" name="identity_service@localhost" uuid="0eb83f61-7994-48ed-9be2-0bb96d056b97">
++      <driver-ref>mysql.8</driver-ref>
++      <synchronize>true</synchronize>
++      <imported>true</imported>
++      <remarks>$PROJECT_DIR$/identity-service/src/main/resources/application.yaml</remarks>
++      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
++      <jdbc-url>jdbc:mysql://localhost:3306/identity_service</jdbc-url>
++      <jdbc-additional-properties>
++        <property name="com.intellij.clouds.kubernetes.db.host.port" />
++        <property name="com.intellij.clouds.kubernetes.db.enabled" value="false" />
++        <property name="com.intellij.clouds.kubernetes.db.container.port" />
++      </jdbc-additional-properties>
++      <working-dir>$ProjectFileDir$</working-dir>
++    </data-source>
++  </component>
++</project>
+\ No newline at end of file
+Index: identity-service/src/main/java/com/devteria/identity_service/dto/request/UserUpdateRequest.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/identity-service/src/main/java/com/devteria/identity_service/dto/request/UserUpdateRequest.java b/identity-service/src/main/java/com/devteria/identity_service/dto/request/UserUpdateRequest.java
+new file mode 100644
+--- /dev/null	(date 1729090731263)
++++ b/identity-service/src/main/java/com/devteria/identity_service/dto/request/UserUpdateRequest.java	(date 1729090731263)
+@@ -0,0 +1,21 @@
++package com.devteria.identity_service.dto.request;
++
++import lombok.*;
++import lombok.experimental.FieldDefaults;
++
++import java.time.LocalDate;
++import java.util.List;
++
++@Data
++@NoArgsConstructor
++@AllArgsConstructor
++@Builder
++@FieldDefaults(level = AccessLevel.PRIVATE)
++public class UserUpdateRequest {
++    String password;
++    String firstName;
++    String lastName;
++    LocalDate dob;
++    List<String> roles;
++
++}
+Index: identity-service/src/main/java/com/devteria/identity_service/exception/GlobalExceptionHandler.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/identity-service/src/main/java/com/devteria/identity_service/exception/GlobalExceptionHandler.java b/identity-service/src/main/java/com/devteria/identity_service/exception/GlobalExceptionHandler.java
+new file mode 100644
+--- /dev/null	(date 1728877765495)
++++ b/identity-service/src/main/java/com/devteria/identity_service/exception/GlobalExceptionHandler.java	(date 1728877765495)
+@@ -0,0 +1,70 @@
++package com.devteria.identity_service.exception;
++
++import com.devteria.identity_service.dto.request.ApiResponse;
++import org.springframework.http.ResponseEntity;
++import org.springframework.security.access.AccessDeniedException;
++import org.springframework.web.bind.MethodArgumentNotValidException;
++import org.springframework.web.bind.annotation.ControllerAdvice;
++import org.springframework.web.bind.annotation.ExceptionHandler;
++
++@ControllerAdvice
++public class GlobalExceptionHandler {
++
++    //Tạo một exception để hiển thị bad request
++    @ExceptionHandler(value = Exception.class)
++    ResponseEntity<ApiResponse> handlingRuntimeException(RuntimeException exception) {
++        ApiResponse apiResponse = new ApiResponse();
++
++        apiResponse.setCode(ErrorCode.UNCATEGORIZED_EXCEPTION.getCode());
++        apiResponse.setMessage(ErrorCode.UNCATEGORIZED_EXCEPTION.getMessage());
++
++        return ResponseEntity.badRequest().body(apiResponse);
++    }
++
++    @ExceptionHandler(value = AppException.class)
++    ResponseEntity<ApiResponse> handlingAppException(AppException exception) {
++        ErrorCode errorCode = exception.getErrorCode();
++        ApiResponse apiResponse = new ApiResponse();
++
++        apiResponse.setCode(errorCode.getCode());
++        apiResponse.setMessage(errorCode.getMessage());
++
++        return ResponseEntity
++                .status(errorCode.getHttpStatusCode())
++                .body(apiResponse);
++    }
++
++    @ExceptionHandler(value = AccessDeniedException.class)
++    ResponseEntity<ApiResponse> handlingAccessDeniedException(AccessDeniedException exception) {
++        ErrorCode errorCode = ErrorCode.UNAUTHORIZED;
++
++        return ResponseEntity.status(errorCode.getHttpStatusCode()).body(
++                ApiResponse.builder()
++                        .code(errorCode.getCode())
++                        .message(errorCode.getMessage())
++                        .build()
++        );
++    }
++
++    //Khai báo exception cho validation
++    @ExceptionHandler(value = MethodArgumentNotValidException.class)
++    ResponseEntity<ApiResponse> handlingVadilation(MethodArgumentNotValidException exception) {
++        String enumKey = exception.getFieldError().getDefaultMessage();
++
++        ErrorCode errorCode = ErrorCode.INVALID_KEY; // trả về lỗi khi lỗi code
++
++        try {
++            errorCode = ErrorCode.valueOf(enumKey);
++        } catch (IllegalArgumentException e) {
++
++        }
++
++        ApiResponse apiResponse = new ApiResponse();
++
++        apiResponse.setCode(errorCode.getCode());
++        apiResponse.setMessage(errorCode.getMessage());
++
++        return ResponseEntity.badRequest().body(apiResponse);
++    }
++
++}
+Index: identity-service/src/main/java/com/devteria/identity_service/entity/Permission.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/identity-service/src/main/java/com/devteria/identity_service/entity/Permission.java b/identity-service/src/main/java/com/devteria/identity_service/entity/Permission.java
+new file mode 100644
+--- /dev/null	(date 1728896328932)
++++ b/identity-service/src/main/java/com/devteria/identity_service/entity/Permission.java	(date 1728896328932)
+@@ -0,0 +1,20 @@
++package com.devteria.identity_service.entity;
++
++import jakarta.persistence.*;
++import lombok.*;
++import lombok.experimental.FieldDefaults;
++
++
++@Getter
++@Setter
++@Builder
++@NoArgsConstructor
++@AllArgsConstructor
++@FieldDefaults(level = AccessLevel.PRIVATE)
++@Entity
++public class Permission {
++    @Id
++    String name;
++    String description;
++
++}
+Index: identity-service/src/main/java/com/devteria/identity_service/entity/Role.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/identity-service/src/main/java/com/devteria/identity_service/entity/Role.java b/identity-service/src/main/java/com/devteria/identity_service/entity/Role.java
+new file mode 100644
+--- /dev/null	(date 1729090919788)
++++ b/identity-service/src/main/java/com/devteria/identity_service/entity/Role.java	(date 1729090919788)
+@@ -0,0 +1,24 @@
++package com.devteria.identity_service.entity;
++
++import jakarta.persistence.*;
++import lombok.*;
++import lombok.experimental.FieldDefaults;
++
++import java.util.Set;
++
++@Getter
++@Setter
++@Builder
++@NoArgsConstructor
++@AllArgsConstructor
++@FieldDefaults(level = AccessLevel.PRIVATE)
++@Entity
++public class Role {
++    @Id
++    String name;
++    String description;
++
++    @ManyToMany
++    Set<Permission> permissions;
++
++}
+Index: identity-service/src/main/java/com/devteria/identity_service/configuration/JwtAuthenticationEntryPoint.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/identity-service/src/main/java/com/devteria/identity_service/configuration/JwtAuthenticationEntryPoint.java b/identity-service/src/main/java/com/devteria/identity_service/configuration/JwtAuthenticationEntryPoint.java
+new file mode 100644
+--- /dev/null	(date 1728878728406)
++++ b/identity-service/src/main/java/com/devteria/identity_service/configuration/JwtAuthenticationEntryPoint.java	(date 1728878728406)
+@@ -0,0 +1,34 @@
++package com.devteria.identity_service.configuration;
++
++import com.devteria.identity_service.dto.request.ApiResponse;
++import com.devteria.identity_service.exception.ErrorCode;
++import com.fasterxml.jackson.databind.ObjectMapper;
++import jakarta.servlet.ServletException;
++import jakarta.servlet.http.HttpServletRequest;
++import jakarta.servlet.http.HttpServletResponse;
++import org.springframework.http.MediaType;
++import org.springframework.security.core.AuthenticationException;
++import org.springframework.security.web.AuthenticationEntryPoint;
++
++import java.io.IOException;
++
++public class JwtAuthenticationEntryPoint implements AuthenticationEntryPoint {
++    @Override
++    public void commence(HttpServletRequest request, HttpServletResponse response, AuthenticationException authException)
++            throws IOException, ServletException {
++        ErrorCode errorCode = ErrorCode.UNAUTHENTICATED;
++
++        response.setStatus(errorCode.getHttpStatusCode().value());
++        response.setContentType(MediaType.APPLICATION_JSON_VALUE);
++
++        ApiResponse apiResponse = ApiResponse.builder()
++                .code(errorCode.getCode())
++                .message(errorCode.getMessage())
++                .build();
++
++        ObjectMapper objectMapper = new ObjectMapper();
++
++        response.getWriter().write(objectMapper.writeValueAsString(apiResponse));
++        response.flushBuffer();
++    }
++}
+Index: identity-service/src/main/java/com/devteria/identity_service/dto/response/PermissionResponse.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/identity-service/src/main/java/com/devteria/identity_service/dto/response/PermissionResponse.java b/identity-service/src/main/java/com/devteria/identity_service/dto/response/PermissionResponse.java
+new file mode 100644
+--- /dev/null	(date 1728899046203)
++++ b/identity-service/src/main/java/com/devteria/identity_service/dto/response/PermissionResponse.java	(date 1728899046203)
+@@ -0,0 +1,14 @@
++package com.devteria.identity_service.dto.response;
++
++import lombok.*;
++import lombok.experimental.FieldDefaults;
++
++@Data
++@NoArgsConstructor
++@AllArgsConstructor
++@Builder
++@FieldDefaults(level = AccessLevel.PRIVATE)
++public class PermissionResponse {
++    String name;
++    String description;
++}
+Index: identity-service/src/main/java/com/devteria/identity_service/dto/request/PermissionRequest.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/identity-service/src/main/java/com/devteria/identity_service/dto/request/PermissionRequest.java b/identity-service/src/main/java/com/devteria/identity_service/dto/request/PermissionRequest.java
+new file mode 100644
+--- /dev/null	(date 1728897851886)
++++ b/identity-service/src/main/java/com/devteria/identity_service/dto/request/PermissionRequest.java	(date 1728897851886)
+@@ -0,0 +1,14 @@
++package com.devteria.identity_service.dto.request;
++
++import lombok.*;
++import lombok.experimental.FieldDefaults;
++
++@Data
++@NoArgsConstructor
++@AllArgsConstructor
++@Builder
++@FieldDefaults(level = AccessLevel.PRIVATE)
++public class PermissionRequest {
++    String name;
++    String description;
++}
+Index: identity-service/src/main/java/com/devteria/identity_service/service/PermissionService.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/identity-service/src/main/java/com/devteria/identity_service/service/PermissionService.java b/identity-service/src/main/java/com/devteria/identity_service/service/PermissionService.java
+new file mode 100644
+--- /dev/null	(date 1728900719488)
++++ b/identity-service/src/main/java/com/devteria/identity_service/service/PermissionService.java	(date 1728900719488)
+@@ -0,0 +1,39 @@
++package com.devteria.identity_service.service;
++
++import com.devteria.identity_service.dto.request.PermissionRequest;
++import com.devteria.identity_service.dto.response.PermissionResponse;
++import com.devteria.identity_service.entity.Permission;
++import com.devteria.identity_service.mapper.PermissionMapper;
++import com.devteria.identity_service.repository.PermissionRepository;
++import lombok.AccessLevel;
++import lombok.RequiredArgsConstructor;
++import lombok.experimental.FieldDefaults;
++import lombok.extern.slf4j.Slf4j;
++import org.springframework.stereotype.Service;
++
++import java.util.List;
++
++@Slf4j
++@RequiredArgsConstructor
++@FieldDefaults(level = AccessLevel.PRIVATE, makeFinal = true)
++@Service
++public class PermissionService {
++    PermissionRepository permissionRepository;
++    PermissionMapper permissionMapper;
++
++    public PermissionResponse create(PermissionRequest request){
++        Permission permission = permissionMapper.toPermission(request);
++        permission = permissionRepository.save(permission);
++
++        return permissionMapper.toPermissionResponse(permission);
++    }
++
++    public List<PermissionResponse> getAll(){
++        var permissions = permissionRepository.findAll();
++        return permissions.stream().map(permissionMapper::toPermissionResponse).toList();
++    }
++
++    public void delete(String permission){
++        permissionRepository.deleteById(permission);
++    }
++}
+Index: identity-service/src/main/java/com/devteria/identity_service/repository/PermissionRepository.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/identity-service/src/main/java/com/devteria/identity_service/repository/PermissionRepository.java b/identity-service/src/main/java/com/devteria/identity_service/repository/PermissionRepository.java
+new file mode 100644
+--- /dev/null	(date 1728897374840)
++++ b/identity-service/src/main/java/com/devteria/identity_service/repository/PermissionRepository.java	(date 1728897374840)
+@@ -0,0 +1,9 @@
++package com.devteria.identity_service.repository;
++
++import com.devteria.identity_service.entity.Permission;
++import org.springframework.data.jpa.repository.JpaRepository;
++import org.springframework.stereotype.Repository;
++
++@Repository
++public interface PermissionRepository extends JpaRepository<Permission, String> {
++}
+Index: .idea/vcs.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/vcs.xml b/.idea/vcs.xml
+new file mode 100644
+--- /dev/null	(date 1727364653502)
++++ b/.idea/vcs.xml	(date 1727364653502)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="VcsDirectoryMappings">
++    <mapping directory="$PROJECT_DIR$" vcs="Git" />
++  </component>
++</project>
+\ No newline at end of file
+Index: identity-service/src/main/java/com/devteria/identity_service/controller/PermissionController.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/identity-service/src/main/java/com/devteria/identity_service/controller/PermissionController.java b/identity-service/src/main/java/com/devteria/identity_service/controller/PermissionController.java
+new file mode 100644
+--- /dev/null	(date 1728900995299)
++++ b/identity-service/src/main/java/com/devteria/identity_service/controller/PermissionController.java	(date 1728900995299)
+@@ -0,0 +1,42 @@
++package com.devteria.identity_service.controller;
++
++import com.devteria.identity_service.dto.request.ApiResponse;
++import com.devteria.identity_service.dto.request.PermissionRequest;
++import com.devteria.identity_service.dto.response.PermissionResponse;
++import com.devteria.identity_service.service.PermissionService;
++import lombok.AccessLevel;
++import lombok.RequiredArgsConstructor;
++import lombok.experimental.FieldDefaults;
++import lombok.extern.slf4j.Slf4j;
++import org.springframework.web.bind.annotation.*;
++
++import java.util.List;
++
++@Slf4j
++@RestController
++@RequestMapping("/permission")
++@RequiredArgsConstructor
++@FieldDefaults(level = AccessLevel.PRIVATE, makeFinal = true)
++public class PermissionController {
++    PermissionService permissionService;
++
++    @PostMapping
++    ApiResponse<PermissionResponse> create(@RequestBody PermissionRequest request) {
++        return ApiResponse.<PermissionResponse>builder()
++                .result(permissionService.create(request))
++                .build();
++    }
++
++    @GetMapping
++    ApiResponse<List<PermissionResponse>> getAll() {
++        return ApiResponse.<List<PermissionResponse>>builder()
++                .result(permissionService.getAll())
++                .build();
++    }
++
++    @DeleteMapping("/{permission}")
++    ApiResponse<Void> delete(@PathVariable String permission){
++        permissionService.delete(permission);
++        return ApiResponse.<Void>builder().build();
++    }
++}
+Index: identity-service/src/main/java/com/devteria/identity_service/mapper/PermissionMapper.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/identity-service/src/main/java/com/devteria/identity_service/mapper/PermissionMapper.java b/identity-service/src/main/java/com/devteria/identity_service/mapper/PermissionMapper.java
+new file mode 100644
+--- /dev/null	(date 1728899351452)
++++ b/identity-service/src/main/java/com/devteria/identity_service/mapper/PermissionMapper.java	(date 1728899351452)
+@@ -0,0 +1,15 @@
++package com.devteria.identity_service.mapper;
++
++import com.devteria.identity_service.dto.request.PermissionRequest;
++import com.devteria.identity_service.dto.response.PermissionResponse;
++import com.devteria.identity_service.entity.Permission;
++import org.mapstruct.Mapper;
++
++
++@Mapper(componentModel = "spring")
++public interface PermissionMapper {
++    Permission toPermission(PermissionRequest request);
++
++    PermissionResponse toPermissionResponse(Permission permission);
++
++}
+Index: target/generated-sources/annotations/com/devteria/identity_service/mapper/PermissionMapperImpl.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/target/generated-sources/annotations/com/devteria/identity_service/mapper/PermissionMapperImpl.java b/target/generated-sources/annotations/com/devteria/identity_service/mapper/PermissionMapperImpl.java
+new file mode 100644
+--- /dev/null	(date 1729090856927)
++++ b/target/generated-sources/annotations/com/devteria/identity_service/mapper/PermissionMapperImpl.java	(date 1729090856927)
+@@ -0,0 +1,43 @@
++package com.devteria.identity_service.mapper;
++
++import com.devteria.identity_service.dto.request.PermissionRequest;
++import com.devteria.identity_service.dto.response.PermissionResponse;
++import com.devteria.identity_service.entity.Permission;
++import javax.annotation.processing.Generated;
++import org.springframework.stereotype.Component;
++
++@Generated(
++    value = "org.mapstruct.ap.MappingProcessor",
++    comments = "version: 1.5.5.Final, compiler: javac, environment: Java 22.0.1 (Oracle Corporation)"
++)
++@Component
++public class PermissionMapperImpl implements PermissionMapper {
++
++    @Override
++    public Permission toPermission(PermissionRequest request) {
++        if ( request == null ) {
++            return null;
++        }
++
++        Permission.PermissionBuilder permission = Permission.builder();
++
++        permission.name( request.getName() );
++        permission.description( request.getDescription() );
++
++        return permission.build();
++    }
++
++    @Override
++    public PermissionResponse toPermissionResponse(Permission permission) {
++        if ( permission == null ) {
++            return null;
++        }
++
++        PermissionResponse.PermissionResponseBuilder permissionResponse = PermissionResponse.builder();
++
++        permissionResponse.name( permission.getName() );
++        permissionResponse.description( permission.getDescription() );
++
++        return permissionResponse.build();
++    }
++}
+Index: identity-service/src/main/java/com/devteria/identity_service/mapper/UserMapper.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/identity-service/src/main/java/com/devteria/identity_service/mapper/UserMapper.java b/identity-service/src/main/java/com/devteria/identity_service/mapper/UserMapper.java
+new file mode 100644
+--- /dev/null	(date 1729092417870)
++++ b/identity-service/src/main/java/com/devteria/identity_service/mapper/UserMapper.java	(date 1729092417870)
+@@ -0,0 +1,20 @@
++package com.devteria.identity_service.mapper;
++
++import com.devteria.identity_service.dto.request.UserCreationRequest;
++import com.devteria.identity_service.dto.request.UserUpdateRequest;
++import com.devteria.identity_service.dto.response.UserResponse;
++import com.devteria.identity_service.entity.User;
++import org.mapstruct.Mapper;
++import org.mapstruct.Mapping;
++import org.mapstruct.MappingTarget;
++
++
++@Mapper(componentModel = "spring")
++public interface UserMapper {
++    @Mapping(target = "roles",ignore = true)
++    User toUser(UserCreationRequest request);
++
++    @Mapping(target = "roles",ignore = true)
++    UserResponse toUserResponse(User user);
++    void updateUser(@MappingTarget User user, UserUpdateRequest request);
++}
+Index: .idea/identity-service.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/identity-service.iml b/.idea/identity-service.iml
+new file mode 100644
+--- /dev/null	(date 1726537999783)
++++ b/.idea/identity-service.iml	(date 1726537999783)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<module version="4">
++  <component name="AdditionalModuleElements">
++    <content url="file://$MODULE_DIR$" />
++  </component>
++</module>
+\ No newline at end of file
+Index: .idea/modules.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/modules.xml b/.idea/modules.xml
+new file mode 100644
+--- /dev/null	(date 1726537999814)
++++ b/.idea/modules.xml	(date 1726537999814)
+@@ -0,0 +1,8 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ProjectModuleManager">
++    <modules>
++      <module fileurl="file://$PROJECT_DIR$/.idea/identity-service.iml" filepath="$PROJECT_DIR$/.idea/identity-service.iml" />
++    </modules>
++  </component>
++</project>
+\ No newline at end of file
+Index: identity-service/src/main/java/com/devteria/identity_service/repository/RoleRepository.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/identity-service/src/main/java/com/devteria/identity_service/repository/RoleRepository.java b/identity-service/src/main/java/com/devteria/identity_service/repository/RoleRepository.java
+new file mode 100644
+--- /dev/null	(date 1729005451335)
++++ b/identity-service/src/main/java/com/devteria/identity_service/repository/RoleRepository.java	(date 1729005451335)
+@@ -0,0 +1,9 @@
++package com.devteria.identity_service.repository;
++
++import com.devteria.identity_service.entity.Role;
++import org.springframework.data.jpa.repository.JpaRepository;
++import org.springframework.stereotype.Repository;
++
++@Repository
++public interface RoleRepository extends JpaRepository<Role, String> {
++}
+Index: .idea/compiler.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/compiler.xml b/.idea/compiler.xml
+new file mode 100644
+--- /dev/null	(date 1727278153478)
++++ b/.idea/compiler.xml	(date 1727278153478)
+@@ -0,0 +1,33 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="CompilerConfiguration">
++    <annotationProcessing>
++      <profile default="true" name="Default" enabled="true" />
++      <profile name="Maven default annotation processors profile" enabled="true">
++        <sourceOutputDir name="target/generated-sources/annotations" />
++        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
++        <outputRelativeToContentRoot value="true" />
++      </profile>
++      <profile name="Annotation profile for identity-service" enabled="true">
++        <sourceOutputDir name="target/generated-sources/annotations" />
++        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
++        <outputRelativeToContentRoot value="true" />
++        <option name="mapstruct.defaultComponentModel" value="spring" />
++        <option name="mapstruct.suppressGeneratorTimestamp" value="true" />
++        <option name="mapstruct.verbose" value="true" />
++        <processorPath useClasspath="false">
++          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.34/lombok-1.18.34.jar" />
++          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok-mapstruct-binding/unknown/lombok-mapstruct-binding-unknown.jar" />
++          <entry name="$MAVEN_REPOSITORY$/org/mapstruct/mapstruct-processor/1.5.5.Final/mapstruct-processor-1.5.5.Final.jar" />
++          <entry name="$MAVEN_REPOSITORY$/org/mapstruct/mapstruct/1.5.5.Final/mapstruct-1.5.5.Final.jar" />
++        </processorPath>
++        <module name="identity-service" />
++      </profile>
++    </annotationProcessing>
++  </component>
++  <component name="JavacSettings">
++    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
++      <module name="identity-service" options="-parameters -Amapstruct.suppressGeneratorTimestamp=true -Amapstruct.defaultComponentModel=spring -Amapstruct.verbose=true" />
++    </option>
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/encodings.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/encodings.xml b/.idea/encodings.xml
+new file mode 100644
+--- /dev/null	(date 1726537999895)
++++ b/.idea/encodings.xml	(date 1726537999895)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="Encoding">
++    <file url="file://$PROJECT_DIR$/identity-service/src/main/java" charset="UTF-8" />
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/misc.xml b/.idea/misc.xml
+new file mode 100644
+--- /dev/null	(date 1726537999862)
++++ b/.idea/misc.xml	(date 1726537999862)
+@@ -0,0 +1,14 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ExternalStorageConfigurationManager" enabled="true" />
++  <component name="MavenProjectsManager">
++    <option name="originalFiles">
++      <list>
++        <option value="$PROJECT_DIR$/identity-service/pom.xml" />
++      </list>
++    </option>
++  </component>
++  <component name="ProjectRootManager" version="2" languageLevel="JDK_22" default="true" project-jdk-name="22" project-jdk-type="JavaSDK">
++    <output url="file://$PROJECT_DIR$/out" />
++  </component>
++</project>
+\ No newline at end of file
+Index: identity-service/src/main/java/com/devteria/identity_service/mapper/RoleMapper.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/identity-service/src/main/java/com/devteria/identity_service/mapper/RoleMapper.java b/identity-service/src/main/java/com/devteria/identity_service/mapper/RoleMapper.java
+new file mode 100644
+--- /dev/null	(date 1729005845286)
++++ b/identity-service/src/main/java/com/devteria/identity_service/mapper/RoleMapper.java	(date 1729005845286)
+@@ -0,0 +1,17 @@
++package com.devteria.identity_service.mapper;
++
++import com.devteria.identity_service.dto.request.RoleRequest;
++import com.devteria.identity_service.dto.response.RoleResponse;
++import com.devteria.identity_service.entity.Role;
++import org.mapstruct.Mapper;
++import org.mapstruct.Mapping;
++
++
++@Mapper(componentModel = "spring")
++public interface RoleMapper {
++    @Mapping(target = "permissions", ignore = true)
++    Role toRole(RoleRequest request);
++
++    RoleResponse toRoleResponse(Role role);
++
++}
+Index: identity-service/src/main/java/com/devteria/identity_service/dto/response/RoleResponse.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/identity-service/src/main/java/com/devteria/identity_service/dto/response/RoleResponse.java b/identity-service/src/main/java/com/devteria/identity_service/dto/response/RoleResponse.java
+new file mode 100644
+--- /dev/null	(date 1729005685815)
++++ b/identity-service/src/main/java/com/devteria/identity_service/dto/response/RoleResponse.java	(date 1729005685815)
+@@ -0,0 +1,17 @@
++package com.devteria.identity_service.dto.response;
++
++import lombok.*;
++import lombok.experimental.FieldDefaults;
++
++import java.util.Set;
++
++@Data
++@NoArgsConstructor
++@AllArgsConstructor
++@Builder
++@FieldDefaults(level = AccessLevel.PRIVATE)
++public class RoleResponse {
++    String name;
++    String description;
++    Set<PermissionResponse> permissions;
++}
+Index: .idea/.gitignore
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/.gitignore b/.idea/.gitignore
+new file mode 100644
+--- /dev/null	(date 1726538000069)
++++ b/.idea/.gitignore	(date 1726538000069)
+@@ -0,0 +1,8 @@
++# Default ignored files
++/shelf/
++/workspace.xml
++# Editor-based HTTP Client requests
++/httpRequests/
++# Datasource local storage ignored files
++/dataSources/
++/dataSources.local.xml
+Index: .idea/jarRepositories.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/jarRepositories.xml b/.idea/jarRepositories.xml
+new file mode 100644
+--- /dev/null	(date 1726537999902)
++++ b/.idea/jarRepositories.xml	(date 1726537999902)
+@@ -0,0 +1,20 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="RemoteRepositoriesConfiguration">
++    <remote-repository>
++      <option name="id" value="central" />
++      <option name="name" value="Central Repository" />
++      <option name="url" value="https://repo.maven.apache.org/maven2" />
++    </remote-repository>
++    <remote-repository>
++      <option name="id" value="central" />
++      <option name="name" value="Maven Central repository" />
++      <option name="url" value="https://repo1.maven.org/maven2" />
++    </remote-repository>
++    <remote-repository>
++      <option name="id" value="jboss.community" />
++      <option name="name" value="JBoss Community repository" />
++      <option name="url" value="https://repository.jboss.org/nexus/content/repositories/public/" />
++    </remote-repository>
++  </component>
++</project>
+\ No newline at end of file
+Index: identity-service/src/main/java/com/devteria/identity_service/dto/response/UserResponse.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/identity-service/src/main/java/com/devteria/identity_service/dto/response/UserResponse.java b/identity-service/src/main/java/com/devteria/identity_service/dto/response/UserResponse.java
+new file mode 100644
+--- /dev/null	(date 1729045502933)
++++ b/identity-service/src/main/java/com/devteria/identity_service/dto/response/UserResponse.java	(date 1729045502933)
+@@ -0,0 +1,21 @@
++package com.devteria.identity_service.dto.response;
++
++import lombok.*;
++import lombok.experimental.FieldDefaults;
++
++import java.time.LocalDate;
++import java.util.Set;
++
++@Data
++@NoArgsConstructor
++@AllArgsConstructor
++@Builder
++@FieldDefaults(level = AccessLevel.PRIVATE)
++public class UserResponse {
++    String id;
++    String username;
++    String firstName;
++    String lastName;
++    LocalDate dob;
++    Set<RoleResponse> roles;
++}
+Index: identity-service/src/main/java/com/devteria/identity_service/dto/request/RoleRequest.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/identity-service/src/main/java/com/devteria/identity_service/dto/request/RoleRequest.java b/identity-service/src/main/java/com/devteria/identity_service/dto/request/RoleRequest.java
+new file mode 100644
+--- /dev/null	(date 1729005627948)
++++ b/identity-service/src/main/java/com/devteria/identity_service/dto/request/RoleRequest.java	(date 1729005627948)
+@@ -0,0 +1,17 @@
++package com.devteria.identity_service.dto.request;
++
++import lombok.*;
++import lombok.experimental.FieldDefaults;
++
++import java.util.Set;
++
++@Data
++@NoArgsConstructor
++@AllArgsConstructor
++@Builder
++@FieldDefaults(level = AccessLevel.PRIVATE)
++public class RoleRequest {
++    String name;
++    String description;
++    Set<String> permissions;
++}
+Index: identity-service/src/main/java/com/devteria/identity_service/service/RoleService.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/identity-service/src/main/java/com/devteria/identity_service/service/RoleService.java b/identity-service/src/main/java/com/devteria/identity_service/service/RoleService.java
+new file mode 100644
+--- /dev/null	(date 1729006283964)
++++ b/identity-service/src/main/java/com/devteria/identity_service/service/RoleService.java	(date 1729006283964)
+@@ -0,0 +1,47 @@
++package com.devteria.identity_service.service;
++
++import com.devteria.identity_service.dto.request.RoleRequest;
++import com.devteria.identity_service.dto.response.RoleResponse;
++import com.devteria.identity_service.mapper.RoleMapper;
++import com.devteria.identity_service.repository.PermissionRepository;
++import com.devteria.identity_service.repository.RoleRepository;
++import lombok.AccessLevel;
++import lombok.RequiredArgsConstructor;
++import lombok.experimental.FieldDefaults;
++import lombok.extern.slf4j.Slf4j;
++import org.springframework.stereotype.Service;
++
++import java.util.HashSet;
++import java.util.List;
++
++@Slf4j
++@RequiredArgsConstructor
++@FieldDefaults(level = AccessLevel.PRIVATE, makeFinal = true)
++@Service
++public class RoleService {
++    RoleRepository roleRepository;
++PermissionRepository permissionRepository;
++    RoleMapper roleMapper;
++
++    public RoleResponse create(RoleRequest request){
++        var role = roleMapper.toRole(request);
++
++        var permissions =  permissionRepository.findAllById(request.getPermissions());
++        role.setPermissions(new HashSet<>(permissions));
++
++        role =  roleRepository.save(role);
++
++        return roleMapper.toRoleResponse(role);
++    }
++
++    public List<RoleResponse> getAll(){
++        return roleRepository.findAll()
++                .stream()
++                .map(roleMapper::toRoleResponse)
++                .toList();
++    }
++
++    public void delete(String role) {
++        roleRepository.deleteById(role);
++    }
++}
+Index: target/generated-sources/annotations/com/devteria/identity_service/mapper/RoleMapperImpl.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/target/generated-sources/annotations/com/devteria/identity_service/mapper/RoleMapperImpl.java b/target/generated-sources/annotations/com/devteria/identity_service/mapper/RoleMapperImpl.java
+new file mode 100644
+--- /dev/null	(date 1729092421247)
++++ b/target/generated-sources/annotations/com/devteria/identity_service/mapper/RoleMapperImpl.java	(date 1729092421247)
+@@ -0,0 +1,74 @@
++package com.devteria.identity_service.mapper;
++
++import com.devteria.identity_service.dto.request.RoleRequest;
++import com.devteria.identity_service.dto.response.PermissionResponse;
++import com.devteria.identity_service.dto.response.RoleResponse;
++import com.devteria.identity_service.entity.Permission;
++import com.devteria.identity_service.entity.Role;
++import java.util.LinkedHashSet;
++import java.util.Set;
++import javax.annotation.processing.Generated;
++import org.springframework.stereotype.Component;
++
++@Generated(
++    value = "org.mapstruct.ap.MappingProcessor",
++    comments = "version: 1.5.5.Final, compiler: javac, environment: Java 22.0.1 (Oracle Corporation)"
++)
++@Component
++public class RoleMapperImpl implements RoleMapper {
++
++    @Override
++    public Role toRole(RoleRequest request) {
++        if ( request == null ) {
++            return null;
++        }
++
++        Role.RoleBuilder role = Role.builder();
++
++        role.name( request.getName() );
++        role.description( request.getDescription() );
++
++        return role.build();
++    }
++
++    @Override
++    public RoleResponse toRoleResponse(Role role) {
++        if ( role == null ) {
++            return null;
++        }
++
++        RoleResponse.RoleResponseBuilder roleResponse = RoleResponse.builder();
++
++        roleResponse.name( role.getName() );
++        roleResponse.description( role.getDescription() );
++        roleResponse.permissions( permissionSetToPermissionResponseSet( role.getPermissions() ) );
++
++        return roleResponse.build();
++    }
++
++    protected PermissionResponse permissionToPermissionResponse(Permission permission) {
++        if ( permission == null ) {
++            return null;
++        }
++
++        PermissionResponse.PermissionResponseBuilder permissionResponse = PermissionResponse.builder();
++
++        permissionResponse.name( permission.getName() );
++        permissionResponse.description( permission.getDescription() );
++
++        return permissionResponse.build();
++    }
++
++    protected Set<PermissionResponse> permissionSetToPermissionResponseSet(Set<Permission> set) {
++        if ( set == null ) {
++            return null;
++        }
++
++        Set<PermissionResponse> set1 = new LinkedHashSet<PermissionResponse>( Math.max( (int) ( set.size() / .75f ) + 1, 16 ) );
++        for ( Permission permission : set ) {
++            set1.add( permissionToPermissionResponse( permission ) );
++        }
++
++        return set1;
++    }
++}
+Index: identity-service/src/main/java/com/devteria/identity_service/controller/RoleController.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/identity-service/src/main/java/com/devteria/identity_service/controller/RoleController.java b/identity-service/src/main/java/com/devteria/identity_service/controller/RoleController.java
+new file mode 100644
+--- /dev/null	(date 1729007072954)
++++ b/identity-service/src/main/java/com/devteria/identity_service/controller/RoleController.java	(date 1729007072954)
+@@ -0,0 +1,42 @@
++package com.devteria.identity_service.controller;
++
++import com.devteria.identity_service.dto.request.ApiResponse;
++import com.devteria.identity_service.dto.request.RoleRequest;
++import com.devteria.identity_service.dto.response.RoleResponse;
++import com.devteria.identity_service.service.RoleService;
++import lombok.AccessLevel;
++import lombok.RequiredArgsConstructor;
++import lombok.experimental.FieldDefaults;
++import lombok.extern.slf4j.Slf4j;
++import org.springframework.web.bind.annotation.*;
++
++import java.util.List;
++
++@Slf4j
++@RestController
++@RequestMapping("/role")
++@RequiredArgsConstructor
++@FieldDefaults(level = AccessLevel.PRIVATE, makeFinal = true)
++public class RoleController {
++    RoleService roleService;
++
++    @PostMapping
++    ApiResponse<RoleResponse> create(@RequestBody RoleRequest request) {
++        return ApiResponse.<RoleResponse>builder()
++                .result(roleService.create(request))
++                .build();
++    }
++
++    @GetMapping
++    ApiResponse<List<RoleResponse>> getAll() {
++        return ApiResponse.<List<RoleResponse>>builder()
++                .result(roleService.getAll())
++                .build();
++    }
++
++    @DeleteMapping("/{role}")
++    ApiResponse<Void> delete(@PathVariable String role){
++        roleService.delete(role);
++        return ApiResponse.<Void>builder().build();
++    }
++}
+Index: identity-service/src/main/java/com/devteria/identity_service/validator/DobValidator.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/identity-service/src/main/java/com/devteria/identity_service/validator/DobValidator.java b/identity-service/src/main/java/com/devteria/identity_service/validator/DobValidator.java
+new file mode 100644
+--- /dev/null	(date 1729074221431)
++++ b/identity-service/src/main/java/com/devteria/identity_service/validator/DobValidator.java	(date 1729074221431)
+@@ -0,0 +1,29 @@
++package com.devteria.identity_service.validator;
++
++import jakarta.validation.ConstraintValidator;
++import jakarta.validation.ConstraintValidatorContext;
++
++import java.time.LocalDate;
++import java.time.temporal.ChronoUnit;
++
++public class DobValidator implements ConstraintValidator<DobConstraint, LocalDate> {
++    private int min;
++
++    // Khởi tạo mỗi khi constraint dc khởi tạo
++    @Override
++    public void initialize(DobConstraint constraintAnnotation) {
++        ConstraintValidator.super.initialize(constraintAnnotation);
++        min = constraintAnnotation.min();
++    }
++
++    //Xử lí hàm dât này có đúng hay ko?
++    @Override
++    public boolean isValid(LocalDate localDate, ConstraintValidatorContext constraintValidatorContext) {
++        if (localDate == null)
++            return true;
++
++        long years =  ChronoUnit.YEARS.between(localDate, LocalDate.now());
++        return years >= min;
++
++    }
++}
+Index: identity-service/src/main/java/com/devteria/identity_service/validator/DobConstraint.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/identity-service/src/main/java/com/devteria/identity_service/validator/DobConstraint.java b/identity-service/src/main/java/com/devteria/identity_service/validator/DobConstraint.java
+new file mode 100644
+--- /dev/null	(date 1729074221441)
++++ b/identity-service/src/main/java/com/devteria/identity_service/validator/DobConstraint.java	(date 1729074221441)
+@@ -0,0 +1,19 @@
++package com.devteria.identity_service.validator;
++
++import jakarta.validation.Constraint;
++import jakarta.validation.Payload;
++
++import java.lang.annotation.*;
++
++@Target({ ElementType.FIELD })
++@Retention(RetentionPolicy.RUNTIME)
++@Constraint(validatedBy = {DobValidator.class})
++public @interface DobConstraint {
++    String message() default "Invalid date of birth";
++
++    int min();
++
++    Class<?>[] groups() default {};
++
++    Class<? extends Payload>[] payload() default {};
++}
+Index: identity-service/src/main/java/com/devteria/identity_service/repository/UserRepository.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/identity-service/src/main/java/com/devteria/identity_service/repository/UserRepository.java b/identity-service/src/main/java/com/devteria/identity_service/repository/UserRepository.java
+new file mode 100644
+--- /dev/null	(date 1727363086750)
++++ b/identity-service/src/main/java/com/devteria/identity_service/repository/UserRepository.java	(date 1727363086750)
+@@ -0,0 +1,15 @@
++//Giúp tương tác với JDBC
++package com.devteria.identity_service.repository;
++
++import org.hibernate.sql.model.jdbc.OptionalTableUpdateOperation;
++import org.springframework.data.jpa.repository.JpaRepository;
++import com.devteria.identity_service.entity.User;
++import org.springframework.stereotype.Repository;
++
++import java.util.Optional;
++
++@Repository
++public interface UserRepository extends JpaRepository<User, String> {
++    boolean existsByUsername(String username);
++    Optional<User> findByUsername(String username);
++}
+Index: identity-service/src/main/java/com/devteria/identity_service/entity/User.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/identity-service/src/main/java/com/devteria/identity_service/entity/User.java b/identity-service/src/main/java/com/devteria/identity_service/entity/User.java
+new file mode 100644
+--- /dev/null	(date 1728896704429)
++++ b/identity-service/src/main/java/com/devteria/identity_service/entity/User.java	(date 1728896704429)
+@@ -0,0 +1,32 @@
++package com.devteria.identity_service.entity;
++
++import jakarta.persistence.*;
++import lombok.*;
++import lombok.experimental.FieldDefaults;
++
++
++import java.time.LocalDate;
++import java.util.Set;
++
++@Getter
++@Setter
++@Builder
++@NoArgsConstructor
++@AllArgsConstructor
++@FieldDefaults(level = AccessLevel.PRIVATE)
++@Entity //anotation Entity
++public class User {
++    @Id
++    @GeneratedValue(strategy = GenerationType.UUID) // generate 1 giá trị bất kì cho id vì id các users có thể trùng nhau
++    String id;
++    String username;
++    String password;
++    String firstName;
++    String lastName;
++    LocalDate dob;
++
++    @ManyToMany
++    Set<Role> roles;
++
++
++}
+Index: identity-service/src/main/java/com/devteria/identity_service/enums/Role.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/identity-service/src/main/java/com/devteria/identity_service/enums/Role.java b/identity-service/src/main/java/com/devteria/identity_service/enums/Role.java
+new file mode 100644
+--- /dev/null	(date 1728524504049)
++++ b/identity-service/src/main/java/com/devteria/identity_service/enums/Role.java	(date 1728524504049)
+@@ -0,0 +1,6 @@
++package com.devteria.identity_service.enums;
++
++public enum Role {
++    ADMIN,
++    USER
++}
+Index: identity-service/src/main/java/com/devteria/identity_service/service/UserService.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/identity-service/src/main/java/com/devteria/identity_service/service/UserService.java b/identity-service/src/main/java/com/devteria/identity_service/service/UserService.java
+new file mode 100644
+--- /dev/null	(date 1729052288884)
++++ b/identity-service/src/main/java/com/devteria/identity_service/service/UserService.java	(date 1729052288884)
+@@ -0,0 +1,91 @@
++package com.devteria.identity_service.service;
++
++import com.devteria.identity_service.dto.request.UserCreationRequest;
++import com.devteria.identity_service.dto.request.UserUpdateRequest;
++import com.devteria.identity_service.dto.response.UserResponse;
++import com.devteria.identity_service.entity.User;
++import com.devteria.identity_service.enums.Role;
++import com.devteria.identity_service.exception.AppException;
++import com.devteria.identity_service.exception.ErrorCode;
++import com.devteria.identity_service.mapper.UserMapper;
++import com.devteria.identity_service.repository.RoleRepository;
++import com.devteria.identity_service.repository.UserRepository;
++import lombok.AccessLevel;
++import lombok.RequiredArgsConstructor;
++import lombok.experimental.FieldDefaults;
++import lombok.extern.slf4j.Slf4j;
++import org.springframework.security.access.prepost.PostAuthorize;
++import org.springframework.security.access.prepost.PreAuthorize;
++import org.springframework.security.core.context.SecurityContextHolder;
++import org.springframework.security.crypto.password.PasswordEncoder;
++import org.springframework.stereotype.Service;
++import java.util.HashSet;
++import java.util.List;
++
++
++@Service
++@RequiredArgsConstructor //TẠO 1 constructor cho tất cả các biến mà define là final
++@FieldDefaults(level = AccessLevel.PRIVATE, makeFinal = true) // bất cứ field nào khi ko khai báo gì sẽ tự dộng là private final
++                                                                //loại bỏ @Autowired
++@Slf4j
++public class UserService {
++    UserRepository userRepository;
++    RoleRepository roleRepository;//private final
++    UserMapper userMapper; //private final
++    PasswordEncoder passwordEncoder;
++
++    public UserResponse createUser(UserCreationRequest request){
++
++        if(userRepository.existsByUsername(request.getUsername()))
++            throw new AppException(ErrorCode.USER_EXISTED); // Ktra User có tồn tại ko
++
++        User user = userMapper.toUser(request);//Map request vào user
++
++        user.setPassword(passwordEncoder.encode(request.getPassword())); //mã hóa mật khẩu
++
++        HashSet<String> roles = new HashSet<>(); //tạo role cho user
++        roles.add(Role.USER.name());
++
++//        user.setRoles(roles);
++
++        return userMapper.toUserResponse(userRepository.save(user)); //persist(lưu dữ liệu lâu dài) vào database
++    }
++
++    public UserResponse getMyInfor() {
++        var context = SecurityContextHolder.getContext();
++        String name =  context.getAuthentication().getName();
++
++        User user =  userRepository.findByUsername(name)
++                .orElseThrow(() -> new AppException(ErrorCode.USER_NOT_EXISTED));
++
++        return userMapper.toUserResponse(user);
++    }
++
++    @PreAuthorize("hasRole('ADMIN')")
++    public List<UserResponse> getUsers() {
++        log.info("In method get users");
++        return userRepository.findAll().stream().map(userMapper::toUserResponse).toList();
++    }
++
++    @PostAuthorize("returnObject.username == authentication.name")
++    public UserResponse getUser(String id) {
++        return userMapper.toUserResponse(userRepository.findById(id)
++                .orElseThrow(() -> new  RuntimeException("User not found")));
++    }
++
++    public UserResponse updateUser(String userId,UserUpdateRequest request) {
++        User user = userRepository.findById(userId).orElseThrow(() -> new  RuntimeException("User not found"));
++
++        userMapper.updateUser(user, request);
++        user.setPassword(passwordEncoder.encode(request.getPassword()));
++
++        var roles = roleRepository.findAllById(request.getRoles());
++        user.setRoles(new HashSet<>(roles));
++
++        return userMapper.toUserResponse(userRepository.save(user));
++    }
++
++    public void deleteUser(String userId) {
++        userRepository.deleteById(userId);
++    }
++}
+Index: identity-service/.gitignore
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/identity-service/.gitignore b/identity-service/.gitignore
+new file mode 100644
+--- /dev/null	(date 1726537170000)
++++ b/identity-service/.gitignore	(date 1726537170000)
+@@ -0,0 +1,33 @@
++HELP.md
++target/
++!.mvn/wrapper/maven-wrapper.jar
++!**/src/main/**/target/
++!**/src/test/**/target/
++
++### STS ###
++.apt_generated
++.classpath
++.factorypath
++.project
++.settings
++.springBeans
++.sts4-cache
++
++### IntelliJ IDEA ###
++.idea
++*.iws
++*.iml
++*.ipr
++
++### NetBeans ###
++/nbproject/private/
++/nbbuild/
++/dist/
++/nbdist/
++/.nb-gradle/
++build/
++!**/src/main/**/build/
++!**/src/test/**/build/
++
++### VS Code ###
++.vscode/
+Index: identity-service/pom.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/identity-service/pom.xml b/identity-service/pom.xml
+new file mode 100644
+--- /dev/null	(date 1728877838171)
++++ b/identity-service/pom.xml	(date 1728877838171)
+@@ -0,0 +1,136 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
++	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
++	<modelVersion>4.0.0</modelVersion>
++	<parent>
++		<groupId>org.springframework.boot</groupId>
++		<artifactId>spring-boot-starter-parent</artifactId>
++		<version>3.3.3</version>
++		<relativePath/> <!-- lookup parent from repository -->
++	</parent>
++	<groupId>com.devteria</groupId>
++	<artifactId>identity-service</artifactId>
++	<version>0.0.1-SNAPSHOT</version>
++	<name>identity-service</name>
++	<description>Identity-service</description>
++	<url/>
++	<licenses>
++		<license/>
++	</licenses>
++	<developers>
++		<developer/>
++	</developers>
++	<scm>
++		<connection/>
++		<developerConnection/>
++		<tag/>
++		<url/>
++	</scm>
++	<properties>
++		<java.version>22</java.version>
++	</properties>
++	<dependencies>
++		<dependency>
++			<groupId>org.springframework.boot</groupId>
++			<artifactId>spring-boot-starter-data-jpa</artifactId>
++		</dependency>
++		<dependency>
++			<groupId>org.springframework.boot</groupId>
++			<artifactId>spring-boot-starter-web</artifactId>
++		</dependency>
++		<dependency>
++			<groupId>org.springframework.boot</groupId>
++			<artifactId>spring-boot-starter-oauth2-resource-server</artifactId>
++		</dependency>
++		<dependency>
++			<groupId>org.springframework.boot</groupId>
++			<artifactId>spring-boot-starter-validation</artifactId>
++		</dependency>
++		<dependency>
++			<groupId>com.mysql</groupId>
++			<artifactId>mysql-connector-j</artifactId>
++			<scope>runtime</scope>
++		</dependency>
++		<dependency>
++			<groupId>org.projectlombok</groupId>
++			<artifactId>lombok</artifactId>
++			<version>${lombok.version}</version>
++		</dependency>
++		<!-- https://mvnrepository.com/artifact/org.mapstruct/mapstruct -->
++		<dependency>
++			<groupId>org.mapstruct</groupId>
++			<artifactId>mapstruct</artifactId>
++			<version>1.6.2</version>
++		</dependency>
++		<dependency>
++			<groupId>org.springframework.boot</groupId>
++			<artifactId>spring-boot-starter-security</artifactId>
++		</dependency>
++		<dependency>
++			<groupId>org.springframework.security</groupId>
++			<artifactId>spring-security-crypto</artifactId>
++		</dependency>
++		<dependency>
++			<groupId>org.springframework.boot</groupId>
++			<artifactId>spring-boot-starter-test</artifactId>
++			<scope>test</scope>
++		</dependency>
++        <dependency>
++            <groupId>org.springframework.boot</groupId>
++            <artifactId>spring-boot-starter-actuator</artifactId>
++        </dependency>
++    </dependencies>
++
++	<build>
++		<plugins>
++			<plugin>
++				<groupId>org.springframework.boot</groupId>
++				<artifactId>spring-boot-maven-plugin</artifactId>
++
++				<configuration>
++					<excludes>
++						<exclude>
++							<groupId>org.projectlombok</groupId>
++							<artifactId>lombok</artifactId>
++							<version>${lombok.version}</version>
++						</exclude>
++					</excludes>
++				</configuration>
++
++			</plugin>
++			<plugin>
++				<groupId>org.apache.maven.plugins</groupId>
++				<artifactId>maven-compiler-plugin</artifactId>
++				<version>${maven-compiler-plugin.version}</version>
++				<configuration>
++					<source>${java.version}</source>
++					<target>${java.version}</target>
++					<annotationProcessorPaths>
++						<path>
++							<groupId>org.projectlombok</groupId>
++							<artifactId>lombok</artifactId>
++							<scope>annotationProcessor</scope>
++							<version>${lombok.version}</version>
++						</path>
++						<path>
++							<groupId>org.projectlombok</groupId>
++							<artifactId>lombok-mapstruct-binding</artifactId>
++							<scope>annotationProcessor</scope>
++						</path>
++						<path>
++							<groupId>org.mapstruct</groupId>
++							<artifactId>mapstruct-processor</artifactId>
++							<version>1.5.5.Final</version>
++						</path>
++					</annotationProcessorPaths>
++					<compilerArgs>
++						<arg>-Amapstruct.suppressGeneratorTimestamp=true</arg>
++						<arg>-Amapstruct.defaultComponentModel=spring</arg>
++						<arg>-Amapstruct.verbose=true</arg>
++					</compilerArgs>
++				</configuration>
++			</plugin>
++		</plugins>
++	</build>
++
++</project>
+Index: identity-service/src/main/java/com/devteria/identity_service/dto/request/UserCreationRequest.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/identity-service/src/main/java/com/devteria/identity_service/dto/request/UserCreationRequest.java b/identity-service/src/main/java/com/devteria/identity_service/dto/request/UserCreationRequest.java
+new file mode 100644
+--- /dev/null	(date 1729090554270)
++++ b/identity-service/src/main/java/com/devteria/identity_service/dto/request/UserCreationRequest.java	(date 1729090554270)
+@@ -0,0 +1,30 @@
++package com.devteria.identity_service.dto.request;
++
++import com.devteria.identity_service.validator.DobConstraint;
++import jakarta.validation.constraints.Size;
++import lombok.*;
++import lombok.experimental.FieldDefaults;
++
++import java.time.LocalDate;
++
++@Data
++@NoArgsConstructor
++@AllArgsConstructor
++@Builder
++@FieldDefaults(level = AccessLevel.PRIVATE)
++public class UserCreationRequest {
++    //Validate username
++    @Size(min = 3, message = "USERNAME_INVALID")
++    String username;
++
++    //tạo validation tối thiểu 8 kí tự
++    @Size(min = 8,message = "INVALID_PASSWORD")
++    String password;
++    String firstName;
++    String lastName;
++
++    @DobConstraint(min = 18,message = "INVALID_DOB")
++    LocalDate dob;
++
++
++}
+Index: identity-service/mvnw
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/identity-service/mvnw b/identity-service/mvnw
+new file mode 100644
+--- /dev/null	(date 1726537170000)
++++ b/identity-service/mvnw	(date 1726537170000)
+@@ -0,0 +1,259 @@
++#!/bin/sh
++# ----------------------------------------------------------------------------
++# Licensed to the Apache Software Foundation (ASF) under one
++# or more contributor license agreements.  See the NOTICE file
++# distributed with this work for additional information
++# regarding copyright ownership.  The ASF licenses this file
++# to you under the Apache License, Version 2.0 (the
++# "License"); you may not use this file except in compliance
++# with the License.  You may obtain a copy of the License at
++#
++#    http://www.apache.org/licenses/LICENSE-2.0
++#
++# Unless required by applicable law or agreed to in writing,
++# software distributed under the License is distributed on an
++# "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
++# KIND, either express or implied.  See the License for the
++# specific language governing permissions and limitations
++# under the License.
++# ----------------------------------------------------------------------------
++
++# ----------------------------------------------------------------------------
++# Apache Maven Wrapper startup batch script, version 3.3.2
++#
++# Optional ENV vars
++# -----------------
++#   JAVA_HOME - location of a JDK home dir, required when download maven via java source
++#   MVNW_REPOURL - repo url base for downloading maven distribution
++#   MVNW_USERNAME/MVNW_PASSWORD - user and password for downloading maven
++#   MVNW_VERBOSE - true: enable verbose log; debug: trace the mvnw script; others: silence the output
++# ----------------------------------------------------------------------------
++
++set -euf
++[ "${MVNW_VERBOSE-}" != debug ] || set -x
++
++# OS specific support.
++native_path() { printf %s\\n "$1"; }
++case "$(uname)" in
++CYGWIN* | MINGW*)
++  [ -z "${JAVA_HOME-}" ] || JAVA_HOME="$(cygpath --unix "$JAVA_HOME")"
++  native_path() { cygpath --path --windows "$1"; }
++  ;;
++esac
++
++# set JAVACMD and JAVACCMD
++set_java_home() {
++  # For Cygwin and MinGW, ensure paths are in Unix format before anything is touched
++  if [ -n "${JAVA_HOME-}" ]; then
++    if [ -x "$JAVA_HOME/jre/sh/java" ]; then
++      # IBM's JDK on AIX uses strange locations for the executables
++      JAVACMD="$JAVA_HOME/jre/sh/java"
++      JAVACCMD="$JAVA_HOME/jre/sh/javac"
++    else
++      JAVACMD="$JAVA_HOME/bin/java"
++      JAVACCMD="$JAVA_HOME/bin/javac"
++
++      if [ ! -x "$JAVACMD" ] || [ ! -x "$JAVACCMD" ]; then
++        echo "The JAVA_HOME environment variable is not defined correctly, so mvnw cannot run." >&2
++        echo "JAVA_HOME is set to \"$JAVA_HOME\", but \"\$JAVA_HOME/bin/java\" or \"\$JAVA_HOME/bin/javac\" does not exist." >&2
++        return 1
++      fi
++    fi
++  else
++    JAVACMD="$(
++      'set' +e
++      'unset' -f command 2>/dev/null
++      'command' -v java
++    )" || :
++    JAVACCMD="$(
++      'set' +e
++      'unset' -f command 2>/dev/null
++      'command' -v javac
++    )" || :
++
++    if [ ! -x "${JAVACMD-}" ] || [ ! -x "${JAVACCMD-}" ]; then
++      echo "The java/javac command does not exist in PATH nor is JAVA_HOME set, so mvnw cannot run." >&2
++      return 1
++    fi
++  fi
++}
++
++# hash string like Java String::hashCode
++hash_string() {
++  str="${1:-}" h=0
++  while [ -n "$str" ]; do
++    char="${str%"${str#?}"}"
++    h=$(((h * 31 + $(LC_CTYPE=C printf %d "'$char")) % 4294967296))
++    str="${str#?}"
++  done
++  printf %x\\n $h
++}
++
++verbose() { :; }
++[ "${MVNW_VERBOSE-}" != true ] || verbose() { printf %s\\n "${1-}"; }
++
++die() {
++  printf %s\\n "$1" >&2
++  exit 1
++}
++
++trim() {
++  # MWRAPPER-139:
++  #   Trims trailing and leading whitespace, carriage returns, tabs, and linefeeds.
++  #   Needed for removing poorly interpreted newline sequences when running in more
++  #   exotic environments such as mingw bash on Windows.
++  printf "%s" "${1}" | tr -d '[:space:]'
++}
++
++# parse distributionUrl and optional distributionSha256Sum, requires .mvn/wrapper/maven-wrapper.properties
++while IFS="=" read -r key value; do
++  case "${key-}" in
++  distributionUrl) distributionUrl=$(trim "${value-}") ;;
++  distributionSha256Sum) distributionSha256Sum=$(trim "${value-}") ;;
++  esac
++done <"${0%/*}/.mvn/wrapper/maven-wrapper.properties"
++[ -n "${distributionUrl-}" ] || die "cannot read distributionUrl property in ${0%/*}/.mvn/wrapper/maven-wrapper.properties"
++
++case "${distributionUrl##*/}" in
++maven-mvnd-*bin.*)
++  MVN_CMD=mvnd.sh _MVNW_REPO_PATTERN=/maven/mvnd/
++  case "${PROCESSOR_ARCHITECTURE-}${PROCESSOR_ARCHITEW6432-}:$(uname -a)" in
++  *AMD64:CYGWIN* | *AMD64:MINGW*) distributionPlatform=windows-amd64 ;;
++  :Darwin*x86_64) distributionPlatform=darwin-amd64 ;;
++  :Darwin*arm64) distributionPlatform=darwin-aarch64 ;;
++  :Linux*x86_64*) distributionPlatform=linux-amd64 ;;
++  *)
++    echo "Cannot detect native platform for mvnd on $(uname)-$(uname -m), use pure java version" >&2
++    distributionPlatform=linux-amd64
++    ;;
++  esac
++  distributionUrl="${distributionUrl%-bin.*}-$distributionPlatform.zip"
++  ;;
++maven-mvnd-*) MVN_CMD=mvnd.sh _MVNW_REPO_PATTERN=/maven/mvnd/ ;;
++*) MVN_CMD="mvn${0##*/mvnw}" _MVNW_REPO_PATTERN=/org/apache/maven/ ;;
++esac
++
++# apply MVNW_REPOURL and calculate MAVEN_HOME
++# maven home pattern: ~/.m2/wrapper/dists/{apache-maven-<version>,maven-mvnd-<version>-<platform>}/<hash>
++[ -z "${MVNW_REPOURL-}" ] || distributionUrl="$MVNW_REPOURL$_MVNW_REPO_PATTERN${distributionUrl#*"$_MVNW_REPO_PATTERN"}"
++distributionUrlName="${distributionUrl##*/}"
++distributionUrlNameMain="${distributionUrlName%.*}"
++distributionUrlNameMain="${distributionUrlNameMain%-bin}"
++MAVEN_USER_HOME="${MAVEN_USER_HOME:-${HOME}/.m2}"
++MAVEN_HOME="${MAVEN_USER_HOME}/wrapper/dists/${distributionUrlNameMain-}/$(hash_string "$distributionUrl")"
++
++exec_maven() {
++  unset MVNW_VERBOSE MVNW_USERNAME MVNW_PASSWORD MVNW_REPOURL || :
++  exec "$MAVEN_HOME/bin/$MVN_CMD" "$@" || die "cannot exec $MAVEN_HOME/bin/$MVN_CMD"
++}
++
++if [ -d "$MAVEN_HOME" ]; then
++  verbose "found existing MAVEN_HOME at $MAVEN_HOME"
++  exec_maven "$@"
++fi
++
++case "${distributionUrl-}" in
++*?-bin.zip | *?maven-mvnd-?*-?*.zip) ;;
++*) die "distributionUrl is not valid, must match *-bin.zip or maven-mvnd-*.zip, but found '${distributionUrl-}'" ;;
++esac
++
++# prepare tmp dir
++if TMP_DOWNLOAD_DIR="$(mktemp -d)" && [ -d "$TMP_DOWNLOAD_DIR" ]; then
++  clean() { rm -rf -- "$TMP_DOWNLOAD_DIR"; }
++  trap clean HUP INT TERM EXIT
++else
++  die "cannot create temp dir"
++fi
++
++mkdir -p -- "${MAVEN_HOME%/*}"
++
++# Download and Install Apache Maven
++verbose "Couldn't find MAVEN_HOME, downloading and installing it ..."
++verbose "Downloading from: $distributionUrl"
++verbose "Downloading to: $TMP_DOWNLOAD_DIR/$distributionUrlName"
++
++# select .zip or .tar.gz
++if ! command -v unzip >/dev/null; then
++  distributionUrl="${distributionUrl%.zip}.tar.gz"
++  distributionUrlName="${distributionUrl##*/}"
++fi
++
++# verbose opt
++__MVNW_QUIET_WGET=--quiet __MVNW_QUIET_CURL=--silent __MVNW_QUIET_UNZIP=-q __MVNW_QUIET_TAR=''
++[ "${MVNW_VERBOSE-}" != true ] || __MVNW_QUIET_WGET='' __MVNW_QUIET_CURL='' __MVNW_QUIET_UNZIP='' __MVNW_QUIET_TAR=v
++
++# normalize http auth
++case "${MVNW_PASSWORD:+has-password}" in
++'') MVNW_USERNAME='' MVNW_PASSWORD='' ;;
++has-password) [ -n "${MVNW_USERNAME-}" ] || MVNW_USERNAME='' MVNW_PASSWORD='' ;;
++esac
++
++if [ -z "${MVNW_USERNAME-}" ] && command -v wget >/dev/null; then
++  verbose "Found wget ... using wget"
++  wget ${__MVNW_QUIET_WGET:+"$__MVNW_QUIET_WGET"} "$distributionUrl" -O "$TMP_DOWNLOAD_DIR/$distributionUrlName" || die "wget: Failed to fetch $distributionUrl"
++elif [ -z "${MVNW_USERNAME-}" ] && command -v curl >/dev/null; then
++  verbose "Found curl ... using curl"
++  curl ${__MVNW_QUIET_CURL:+"$__MVNW_QUIET_CURL"} -f -L -o "$TMP_DOWNLOAD_DIR/$distributionUrlName" "$distributionUrl" || die "curl: Failed to fetch $distributionUrl"
++elif set_java_home; then
++  verbose "Falling back to use Java to download"
++  javaSource="$TMP_DOWNLOAD_DIR/Downloader.java"
++  targetZip="$TMP_DOWNLOAD_DIR/$distributionUrlName"
++  cat >"$javaSource" <<-END
++	public class Downloader extends java.net.Authenticator
++	{
++	  protected java.net.PasswordAuthentication getPasswordAuthentication()
++	  {
++	    return new java.net.PasswordAuthentication( System.getenv( "MVNW_USERNAME" ), System.getenv( "MVNW_PASSWORD" ).toCharArray() );
++	  }
++	  public static void main( String[] args ) throws Exception
++	  {
++	    setDefault( new Downloader() );
++	    java.nio.file.Files.copy( java.net.URI.create( args[0] ).toURL().openStream(), java.nio.file.Paths.get( args[1] ).toAbsolutePath().normalize() );
++	  }
++	}
++	END
++  # For Cygwin/MinGW, switch paths to Windows format before running javac and java
++  verbose " - Compiling Downloader.java ..."
++  "$(native_path "$JAVACCMD")" "$(native_path "$javaSource")" || die "Failed to compile Downloader.java"
++  verbose " - Running Downloader.java ..."
++  "$(native_path "$JAVACMD")" -cp "$(native_path "$TMP_DOWNLOAD_DIR")" Downloader "$distributionUrl" "$(native_path "$targetZip")"
++fi
++
++# If specified, validate the SHA-256 sum of the Maven distribution zip file
++if [ -n "${distributionSha256Sum-}" ]; then
++  distributionSha256Result=false
++  if [ "$MVN_CMD" = mvnd.sh ]; then
++    echo "Checksum validation is not supported for maven-mvnd." >&2
++    echo "Please disable validation by removing 'distributionSha256Sum' from your maven-wrapper.properties." >&2
++    exit 1
++  elif command -v sha256sum >/dev/null; then
++    if echo "$distributionSha256Sum  $TMP_DOWNLOAD_DIR/$distributionUrlName" | sha256sum -c >/dev/null 2>&1; then
++      distributionSha256Result=true
++    fi
++  elif command -v shasum >/dev/null; then
++    if echo "$distributionSha256Sum  $TMP_DOWNLOAD_DIR/$distributionUrlName" | shasum -a 256 -c >/dev/null 2>&1; then
++      distributionSha256Result=true
++    fi
++  else
++    echo "Checksum validation was requested but neither 'sha256sum' or 'shasum' are available." >&2
++    echo "Please install either command, or disable validation by removing 'distributionSha256Sum' from your maven-wrapper.properties." >&2
++    exit 1
++  fi
++  if [ $distributionSha256Result = false ]; then
++    echo "Error: Failed to validate Maven distribution SHA-256, your Maven distribution might be compromised." >&2
++    echo "If you updated your Maven version, you need to update the specified distributionSha256Sum property." >&2
++    exit 1
++  fi
++fi
++
++# unzip and move
++if command -v unzip >/dev/null; then
++  unzip ${__MVNW_QUIET_UNZIP:+"$__MVNW_QUIET_UNZIP"} "$TMP_DOWNLOAD_DIR/$distributionUrlName" -d "$TMP_DOWNLOAD_DIR" || die "failed to unzip"
++else
++  tar xzf${__MVNW_QUIET_TAR:+"$__MVNW_QUIET_TAR"} "$TMP_DOWNLOAD_DIR/$distributionUrlName" -C "$TMP_DOWNLOAD_DIR" || die "failed to untar"
++fi
++printf %s\\n "$distributionUrl" >"$TMP_DOWNLOAD_DIR/$distributionUrlNameMain/mvnw.url"
++mv -- "$TMP_DOWNLOAD_DIR/$distributionUrlNameMain" "$MAVEN_HOME" || [ -d "$MAVEN_HOME" ] || die "fail to move MAVEN_HOME"
++
++clean || :
++exec_maven "$@"
+Index: identity-service/mvnw.cmd
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/identity-service/mvnw.cmd b/identity-service/mvnw.cmd
+new file mode 100644
+--- /dev/null	(date 1726537170000)
++++ b/identity-service/mvnw.cmd	(date 1726537170000)
+@@ -0,0 +1,149 @@
++<# : batch portion
++@REM ----------------------------------------------------------------------------
++@REM Licensed to the Apache Software Foundation (ASF) under one
++@REM or more contributor license agreements.  See the NOTICE file
++@REM distributed with this work for additional information
++@REM regarding copyright ownership.  The ASF licenses this file
++@REM to you under the Apache License, Version 2.0 (the
++@REM "License"); you may not use this file except in compliance
++@REM with the License.  You may obtain a copy of the License at
++@REM
++@REM    http://www.apache.org/licenses/LICENSE-2.0
++@REM
++@REM Unless required by applicable law or agreed to in writing,
++@REM software distributed under the License is distributed on an
++@REM "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
++@REM KIND, either express or implied.  See the License for the
++@REM specific language governing permissions and limitations
++@REM under the License.
++@REM ----------------------------------------------------------------------------
++
++@REM ----------------------------------------------------------------------------
++@REM Apache Maven Wrapper startup batch script, version 3.3.2
++@REM
++@REM Optional ENV vars
++@REM   MVNW_REPOURL - repo url base for downloading maven distribution
++@REM   MVNW_USERNAME/MVNW_PASSWORD - user and password for downloading maven
++@REM   MVNW_VERBOSE - true: enable verbose log; others: silence the output
++@REM ----------------------------------------------------------------------------
++
++@IF "%__MVNW_ARG0_NAME__%"=="" (SET __MVNW_ARG0_NAME__=%~nx0)
++@SET __MVNW_CMD__=
++@SET __MVNW_ERROR__=
++@SET __MVNW_PSMODULEP_SAVE=%PSModulePath%
++@SET PSModulePath=
++@FOR /F "usebackq tokens=1* delims==" %%A IN (`powershell -noprofile "& {$scriptDir='%~dp0'; $script='%__MVNW_ARG0_NAME__%'; icm -ScriptBlock ([Scriptblock]::Create((Get-Content -Raw '%~f0'))) -NoNewScope}"`) DO @(
++  IF "%%A"=="MVN_CMD" (set __MVNW_CMD__=%%B) ELSE IF "%%B"=="" (echo %%A) ELSE (echo %%A=%%B)
++)
++@SET PSModulePath=%__MVNW_PSMODULEP_SAVE%
++@SET __MVNW_PSMODULEP_SAVE=
++@SET __MVNW_ARG0_NAME__=
++@SET MVNW_USERNAME=
++@SET MVNW_PASSWORD=
++@IF NOT "%__MVNW_CMD__%"=="" (%__MVNW_CMD__% %*)
++@echo Cannot start maven from wrapper >&2 && exit /b 1
++@GOTO :EOF
++: end batch / begin powershell #>
++
++$ErrorActionPreference = "Stop"
++if ($env:MVNW_VERBOSE -eq "true") {
++  $VerbosePreference = "Continue"
++}
++
++# calculate distributionUrl, requires .mvn/wrapper/maven-wrapper.properties
++$distributionUrl = (Get-Content -Raw "$scriptDir/.mvn/wrapper/maven-wrapper.properties" | ConvertFrom-StringData).distributionUrl
++if (!$distributionUrl) {
++  Write-Error "cannot read distributionUrl property in $scriptDir/.mvn/wrapper/maven-wrapper.properties"
++}
++
++switch -wildcard -casesensitive ( $($distributionUrl -replace '^.*/','') ) {
++  "maven-mvnd-*" {
++    $USE_MVND = $true
++    $distributionUrl = $distributionUrl -replace '-bin\.[^.]*$',"-windows-amd64.zip"
++    $MVN_CMD = "mvnd.cmd"
++    break
++  }
++  default {
++    $USE_MVND = $false
++    $MVN_CMD = $script -replace '^mvnw','mvn'
++    break
++  }
++}
++
++# apply MVNW_REPOURL and calculate MAVEN_HOME
++# maven home pattern: ~/.m2/wrapper/dists/{apache-maven-<version>,maven-mvnd-<version>-<platform>}/<hash>
++if ($env:MVNW_REPOURL) {
++  $MVNW_REPO_PATTERN = if ($USE_MVND) { "/org/apache/maven/" } else { "/maven/mvnd/" }
++  $distributionUrl = "$env:MVNW_REPOURL$MVNW_REPO_PATTERN$($distributionUrl -replace '^.*'+$MVNW_REPO_PATTERN,'')"
++}
++$distributionUrlName = $distributionUrl -replace '^.*/',''
++$distributionUrlNameMain = $distributionUrlName -replace '\.[^.]*$','' -replace '-bin$',''
++$MAVEN_HOME_PARENT = "$HOME/.m2/wrapper/dists/$distributionUrlNameMain"
++if ($env:MAVEN_USER_HOME) {
++  $MAVEN_HOME_PARENT = "$env:MAVEN_USER_HOME/wrapper/dists/$distributionUrlNameMain"
++}
++$MAVEN_HOME_NAME = ([System.Security.Cryptography.MD5]::Create().ComputeHash([byte[]][char[]]$distributionUrl) | ForEach-Object {$_.ToString("x2")}) -join ''
++$MAVEN_HOME = "$MAVEN_HOME_PARENT/$MAVEN_HOME_NAME"
++
++if (Test-Path -Path "$MAVEN_HOME" -PathType Container) {
++  Write-Verbose "found existing MAVEN_HOME at $MAVEN_HOME"
++  Write-Output "MVN_CMD=$MAVEN_HOME/bin/$MVN_CMD"
++  exit $?
++}
++
++if (! $distributionUrlNameMain -or ($distributionUrlName -eq $distributionUrlNameMain)) {
++  Write-Error "distributionUrl is not valid, must end with *-bin.zip, but found $distributionUrl"
++}
++
++# prepare tmp dir
++$TMP_DOWNLOAD_DIR_HOLDER = New-TemporaryFile
++$TMP_DOWNLOAD_DIR = New-Item -Itemtype Directory -Path "$TMP_DOWNLOAD_DIR_HOLDER.dir"
++$TMP_DOWNLOAD_DIR_HOLDER.Delete() | Out-Null
++trap {
++  if ($TMP_DOWNLOAD_DIR.Exists) {
++    try { Remove-Item $TMP_DOWNLOAD_DIR -Recurse -Force | Out-Null }
++    catch { Write-Warning "Cannot remove $TMP_DOWNLOAD_DIR" }
++  }
++}
++
++New-Item -Itemtype Directory -Path "$MAVEN_HOME_PARENT" -Force | Out-Null
++
++# Download and Install Apache Maven
++Write-Verbose "Couldn't find MAVEN_HOME, downloading and installing it ..."
++Write-Verbose "Downloading from: $distributionUrl"
++Write-Verbose "Downloading to: $TMP_DOWNLOAD_DIR/$distributionUrlName"
++
++$webclient = New-Object System.Net.WebClient
++if ($env:MVNW_USERNAME -and $env:MVNW_PASSWORD) {
++  $webclient.Credentials = New-Object System.Net.NetworkCredential($env:MVNW_USERNAME, $env:MVNW_PASSWORD)
++}
++[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
++$webclient.DownloadFile($distributionUrl, "$TMP_DOWNLOAD_DIR/$distributionUrlName") | Out-Null
++
++# If specified, validate the SHA-256 sum of the Maven distribution zip file
++$distributionSha256Sum = (Get-Content -Raw "$scriptDir/.mvn/wrapper/maven-wrapper.properties" | ConvertFrom-StringData).distributionSha256Sum
++if ($distributionSha256Sum) {
++  if ($USE_MVND) {
++    Write-Error "Checksum validation is not supported for maven-mvnd. `nPlease disable validation by removing 'distributionSha256Sum' from your maven-wrapper.properties."
++  }
++  Import-Module $PSHOME\Modules\Microsoft.PowerShell.Utility -Function Get-FileHash
++  if ((Get-FileHash "$TMP_DOWNLOAD_DIR/$distributionUrlName" -Algorithm SHA256).Hash.ToLower() -ne $distributionSha256Sum) {
++    Write-Error "Error: Failed to validate Maven distribution SHA-256, your Maven distribution might be compromised. If you updated your Maven version, you need to update the specified distributionSha256Sum property."
++  }
++}
++
++# unzip and move
++Expand-Archive "$TMP_DOWNLOAD_DIR/$distributionUrlName" -DestinationPath "$TMP_DOWNLOAD_DIR" | Out-Null
++Rename-Item -Path "$TMP_DOWNLOAD_DIR/$distributionUrlNameMain" -NewName $MAVEN_HOME_NAME | Out-Null
++try {
++  Move-Item -Path "$TMP_DOWNLOAD_DIR/$MAVEN_HOME_NAME" -Destination $MAVEN_HOME_PARENT | Out-Null
++} catch {
++  if (! (Test-Path -Path "$MAVEN_HOME" -PathType Container)) {
++    Write-Error "fail to move MAVEN_HOME"
++  }
++} finally {
++  try { Remove-Item $TMP_DOWNLOAD_DIR -Recurse -Force | Out-Null }
++  catch { Write-Warning "Cannot remove $TMP_DOWNLOAD_DIR" }
++}
++
++Write-Output "MVN_CMD=$MAVEN_HOME/bin/$MVN_CMD"
+Index: identity-service/src/main/java/com/devteria/identity_service/controller/UserController.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/identity-service/src/main/java/com/devteria/identity_service/controller/UserController.java b/identity-service/src/main/java/com/devteria/identity_service/controller/UserController.java
+new file mode 100644
+--- /dev/null	(date 1728576013563)
++++ b/identity-service/src/main/java/com/devteria/identity_service/controller/UserController.java	(date 1728576013563)
+@@ -0,0 +1,74 @@
++package com.devteria.identity_service.controller;
++
++import com.devteria.identity_service.dto.request.ApiResponse;
++import com.devteria.identity_service.dto.request.UserCreationRequest;
++import com.devteria.identity_service.dto.request.UserUpdateRequest;
++import com.devteria.identity_service.dto.response.UserResponse;
++import com.devteria.identity_service.service.UserService;
++import jakarta.validation.Valid;
++import lombok.AccessLevel;
++import lombok.RequiredArgsConstructor;
++import lombok.experimental.FieldDefaults;
++import lombok.extern.slf4j.Slf4j;
++import org.springframework.security.core.context.SecurityContextHolder;
++import org.springframework.web.bind.annotation.*;
++
++import java.util.List;
++
++@Slf4j
++@RestController
++@RequestMapping("/users")
++@RequiredArgsConstructor
++@FieldDefaults(level = AccessLevel.PRIVATE, makeFinal = true)
++public class UserController {
++    UserService userService;
++
++    @PostMapping //@Valid để khai báo cần validate Obj dựa theo rules dc define trong Obj (@Size)
++    ApiResponse<UserResponse> createUser(@RequestBody @Valid UserCreationRequest request) {
++        return ApiResponse.<UserResponse>builder()
++                .result(userService.createUser(request))
++                .build();
++    }
++
++    @GetMapping
++    ApiResponse<List<UserResponse>> getUsers() {
++        var authentication = SecurityContextHolder.getContext().getAuthentication();
++
++        log.info("Username: {}", authentication.getName());
++        authentication.getAuthorities().forEach(grantedAuthority -> log.info(grantedAuthority.getAuthority()));
++
++
++        return ApiResponse.<List<UserResponse>>builder()
++                .result(userService.getUsers())
++                .build();
++    }
++
++    @GetMapping("/{userId}")
++    ApiResponse<UserResponse> getUser(@PathVariable("userId") String userId) {
++        return ApiResponse.<UserResponse>builder()
++                .result(userService.getUser(userId))
++                .build();
++    }
++
++    @GetMapping("/myInfor")
++    ApiResponse<UserResponse> getMyInfor() {
++        return ApiResponse.<UserResponse>builder()
++                .result(userService.getMyInfor())
++                .build();
++    }
++
++    @PutMapping("/{userId}")
++    ApiResponse<UserResponse> updateUser(@PathVariable String userId, @RequestBody UserUpdateRequest request) {
++        return ApiResponse.<UserResponse>builder()
++                .result(userService.updateUser(userId, request))
++                .build();
++    }
++
++    @DeleteMapping("/{userId}")
++    ApiResponse<String> deleteUser(@PathVariable String userId) {
++        userService.deleteUser(userId);
++        return ApiResponse.<String>builder()
++                .result("User has been deleted")
++                .build();
++    }
++}
+Index: identity-service/src/main/resources/application.yaml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/identity-service/src/main/resources/application.yaml b/identity-service/src/main/resources/application.yaml
+new file mode 100644
+--- /dev/null	(date 1727793560783)
++++ b/identity-service/src/main/resources/application.yaml	(date 1727793560783)
+@@ -0,0 +1,17 @@
++server:
++  port: 8080
++  servlet:
++    context-path: /identity
++
++spring:
++  datasource:
++    url: "jdbc:mysql://localhost:3306/identity_service"
++    username : root
++    password : root
++  jpa:
++    hibernate:
++      ddl-auto: update
++    show-sql: true
++
++jwt:
++  signerKey: "zq67ilKWF0EWZpRmaReLZgL3Lq1GydNho8aEnGP/MQr3fBsGCseV0+LauMR6MWYf"
+\ No newline at end of file
+Index: identity-service/.mvn/wrapper/maven-wrapper.properties
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>ISO-8859-1
+===================================================================
+diff --git a/identity-service/.mvn/wrapper/maven-wrapper.properties b/identity-service/.mvn/wrapper/maven-wrapper.properties
+new file mode 100644
+--- /dev/null	(date 1726537170000)
++++ b/identity-service/.mvn/wrapper/maven-wrapper.properties	(date 1726537170000)
+@@ -0,0 +1,19 @@
++# Licensed to the Apache Software Foundation (ASF) under one
++# or more contributor license agreements.  See the NOTICE file
++# distributed with this work for additional information
++# regarding copyright ownership.  The ASF licenses this file
++# to you under the Apache License, Version 2.0 (the
++# "License"); you may not use this file except in compliance
++# with the License.  You may obtain a copy of the License at
++#
++#   http://www.apache.org/licenses/LICENSE-2.0
++#
++# Unless required by applicable law or agreed to in writing,
++# software distributed under the License is distributed on an
++# "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
++# KIND, either express or implied.  See the License for the
++# specific language governing permissions and limitations
++# under the License.
++wrapperVersion=3.3.2
++distributionType=only-script
++distributionUrl=https://repo.maven.apache.org/maven2/org/apache/maven/apache-maven/3.9.9/apache-maven-3.9.9-bin.zip
+Index: identity-service/src/main/java/com/devteria/identity_service/IdentityServiceApplication.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/identity-service/src/main/java/com/devteria/identity_service/IdentityServiceApplication.java b/identity-service/src/main/java/com/devteria/identity_service/IdentityServiceApplication.java
+new file mode 100644
+--- /dev/null	(date 1726537170000)
++++ b/identity-service/src/main/java/com/devteria/identity_service/IdentityServiceApplication.java	(date 1726537170000)
+@@ -0,0 +1,13 @@
++package com.devteria.identity_service;
++
++import org.springframework.boot.SpringApplication;
++import org.springframework.boot.autoconfigure.SpringBootApplication;
++
++@SpringBootApplication
++public class IdentityServiceApplication {
++
++	public static void main(String[] args) {
++		SpringApplication.run(IdentityServiceApplication.class, args);
++	}
++
++}
+Index: identity-service/src/test/java/com/devteria/identity_service/IdentityServiceApplicationTests.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/identity-service/src/test/java/com/devteria/identity_service/IdentityServiceApplicationTests.java b/identity-service/src/test/java/com/devteria/identity_service/IdentityServiceApplicationTests.java
+new file mode 100644
+--- /dev/null	(date 1726537170000)
++++ b/identity-service/src/test/java/com/devteria/identity_service/IdentityServiceApplicationTests.java	(date 1726537170000)
+@@ -0,0 +1,13 @@
++package com.devteria.identity_service;
++
++import org.junit.jupiter.api.Test;
++import org.springframework.boot.test.context.SpringBootTest;
++
++@SpringBootTest
++class IdentityServiceApplicationTests {
++
++	@Test
++	void contextLoads() {
++	}
++
++}
+Index: identity-service/src/main/java/com/devteria/identity_service/configuration/SecurityConfig.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/identity-service/src/main/java/com/devteria/identity_service/configuration/SecurityConfig.java b/identity-service/src/main/java/com/devteria/identity_service/configuration/SecurityConfig.java
+new file mode 100644
+--- /dev/null	(date 1729048006105)
++++ b/identity-service/src/main/java/com/devteria/identity_service/configuration/SecurityConfig.java	(date 1729048006105)
+@@ -0,0 +1,75 @@
++package com.devteria.identity_service.configuration;
++
++import org.springframework.beans.factory.annotation.Value;
++import org.springframework.context.annotation.Bean;
++import org.springframework.context.annotation.Configuration;
++import org.springframework.http.HttpMethod;
++import org.springframework.security.config.annotation.method.configuration.EnableMethodSecurity;
++import org.springframework.security.config.annotation.web.builders.HttpSecurity;
++import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
++import org.springframework.security.config.annotation.web.configurers.AbstractHttpConfigurer;
++import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
++import org.springframework.security.crypto.password.PasswordEncoder;
++import org.springframework.security.oauth2.jose.jws.MacAlgorithm;
++import org.springframework.security.oauth2.jwt.JwtDecoder;
++import org.springframework.security.oauth2.jwt.NimbusJwtDecoder;
++import org.springframework.security.oauth2.server.resource.authentication.JwtAuthenticationConverter;
++import org.springframework.security.oauth2.server.resource.authentication.JwtGrantedAuthoritiesConverter;
++import org.springframework.security.web.SecurityFilterChain;
++
++import javax.crypto.spec.SecretKeySpec;
++
++@Configuration
++@EnableWebSecurity
++@EnableMethodSecurity
++public class SecurityConfig {
++
++    public final String[] PUBLIC_ENDPOINTS = {"/users", "/auth/token", "/auth/introspect"} ;
++
++    @Value("${jwt.signerKey}")
++    private String signerKey;
++
++    @Bean
++    public SecurityFilterChain filterChain(HttpSecurity httpSecurity) throws Exception {
++
++        httpSecurity.authorizeHttpRequests(requests ->
++                requests.requestMatchers(HttpMethod.POST, PUBLIC_ENDPOINTS).permitAll()
++                        .anyRequest().authenticated());
++
++        httpSecurity.oauth2ResourceServer(oauth2 ->
++                oauth2.jwt(jwtConfigurer -> jwtConfigurer.decoder(jwtDecoder()))
++                        .authenticationEntryPoint(new JwtAuthenticationEntryPoint())
++                );
++
++        httpSecurity.csrf(AbstractHttpConfigurer::disable); //tắt cấu hình csrf
++
++        return httpSecurity.build();
++    }
++
++    @Bean
++    JwtAuthenticationConverter jwtAuthenticationConverter() {
++        JwtGrantedAuthoritiesConverter jwtGrantedAuthoritiesConverter = new JwtGrantedAuthoritiesConverter();
++        jwtGrantedAuthoritiesConverter.setAuthorityPrefix("");
++
++        JwtAuthenticationConverter jwtAuthenticationConverter = new JwtAuthenticationConverter();
++        jwtAuthenticationConverter.setJwtGrantedAuthoritiesConverter(jwtGrantedAuthoritiesConverter);
++
++        return jwtAuthenticationConverter;
++    }
++
++    @Bean
++    JwtDecoder jwtDecoder() {
++        SecretKeySpec secretKeySpec = new SecretKeySpec(signerKey.getBytes(), "HS512");
++
++        return NimbusJwtDecoder
++                .withSecretKey(secretKeySpec)
++                .macAlgorithm(MacAlgorithm.HS512)
++                .build();
++    }
++
++    @Bean
++    PasswordEncoder passwordEncoder() {
++        return new BCryptPasswordEncoder(10);
++    }
++
++}
+\ No newline at end of file
+Index: identity-service/src/main/java/com/devteria/identity_service/dto/response/IntrospectResponse.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/identity-service/src/main/java/com/devteria/identity_service/dto/response/IntrospectResponse.java b/identity-service/src/main/java/com/devteria/identity_service/dto/response/IntrospectResponse.java
+new file mode 100644
+--- /dev/null	(date 1727792185640)
++++ b/identity-service/src/main/java/com/devteria/identity_service/dto/response/IntrospectResponse.java	(date 1727792185640)
+@@ -0,0 +1,13 @@
++package com.devteria.identity_service.dto.response;
++
++import lombok.*;
++import lombok.experimental.FieldDefaults;
++
++@Data
++@NoArgsConstructor
++@AllArgsConstructor
++@Builder
++@FieldDefaults(level = AccessLevel.PRIVATE)
++public class IntrospectResponse {
++    boolean valid;
++}
+Index: identity-service/src/main/java/com/devteria/identity_service/dto/request/IntrospectRequest.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/identity-service/src/main/java/com/devteria/identity_service/dto/request/IntrospectRequest.java b/identity-service/src/main/java/com/devteria/identity_service/dto/request/IntrospectRequest.java
+new file mode 100644
+--- /dev/null	(date 1727792185630)
++++ b/identity-service/src/main/java/com/devteria/identity_service/dto/request/IntrospectRequest.java	(date 1727792185630)
+@@ -0,0 +1,13 @@
++package com.devteria.identity_service.dto.request;
++
++import lombok.*;
++import lombok.experimental.FieldDefaults;
++
++@Data
++@NoArgsConstructor
++@AllArgsConstructor
++@Builder
++@FieldDefaults(level = AccessLevel.PRIVATE)
++public class IntrospectRequest {
++    String token;
++}
+Index: identity-service/src/main/java/com/devteria/identity_service/configuration/ApplicationInitConfig.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/identity-service/src/main/java/com/devteria/identity_service/configuration/ApplicationInitConfig.java b/identity-service/src/main/java/com/devteria/identity_service/configuration/ApplicationInitConfig.java
+new file mode 100644
+--- /dev/null	(date 1729053578684)
++++ b/identity-service/src/main/java/com/devteria/identity_service/configuration/ApplicationInitConfig.java	(date 1729053578684)
+@@ -0,0 +1,42 @@
++package com.devteria.identity_service.configuration;
++
++import com.devteria.identity_service.entity.User;
++import com.devteria.identity_service.enums.Role;
++import com.devteria.identity_service.repository.UserRepository;
++import lombok.AccessLevel;
++import lombok.RequiredArgsConstructor;
++import lombok.experimental.FieldDefaults;
++import lombok.extern.slf4j.Slf4j;
++import org.springframework.boot.ApplicationRunner;
++import org.springframework.context.annotation.Bean;
++import org.springframework.context.annotation.Configuration;
++import org.springframework.security.crypto.password.PasswordEncoder;
++import java.util.HashSet;
++
++@Configuration
++@RequiredArgsConstructor
++@FieldDefaults(level = AccessLevel.PRIVATE, makeFinal = true)
++@Slf4j
++public class ApplicationInitConfig {
++
++    PasswordEncoder passwordEncoder;
++
++    @Bean
++    ApplicationRunner applicationRunner(UserRepository userRepository){ //sẽ chạy khi start application
++        return args -> {
++           if (userRepository.findByUsername("admin").isEmpty()) {
++               var roles = new HashSet<String>();
++               roles.add(Role.ADMIN.name());
++               User user = new User().builder()
++                       .username("admin")
++                       .password(passwordEncoder.encode("admin"))
++//                       .roles(roles)
++                       .build();
++
++               userRepository.save(user);
++               log.warn("Admin user has been created with default password: admin, please change it");
++           }
++        };
++    }
++
++}
+Index: identity-service/src/main/java/com/devteria/identity_service/exception/ErrorCode.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/identity-service/src/main/java/com/devteria/identity_service/exception/ErrorCode.java b/identity-service/src/main/java/com/devteria/identity_service/exception/ErrorCode.java
+new file mode 100644
+--- /dev/null	(date 1729074723132)
++++ b/identity-service/src/main/java/com/devteria/identity_service/exception/ErrorCode.java	(date 1729074723132)
+@@ -0,0 +1,34 @@
++package com.devteria.identity_service.exception;
++
++import lombok.Getter;
++import org.springframework.http.HttpStatus;
++import org.springframework.http.HttpStatusCode;
++
++@Getter
++public enum ErrorCode {
++    //define errorcode không xác định
++    UNCATEGORIZED_EXCEPTION(9999, "Uncategorized Exception", HttpStatus.INTERNAL_SERVER_ERROR),
++    //define error khi lỗi code
++    INVALID_KEY(1001, "Invalid message key", HttpStatus.BAD_REQUEST),
++    //define errorcode cho user exist
++    USER_EXISTED(1002, "User already existed", HttpStatus.BAD_REQUEST),
++    //Define error khi nằm ngoài validation
++    USERNAME_INVALID(1003, "Username must be at least 3 characters", HttpStatus.BAD_REQUEST),
++    INVALID_PASSWORD(1004, "Password must be at least 8 characters", HttpStatus.BAD_REQUEST),
++    USER_NOT_EXISTED(1005, "User not existed", HttpStatus.NOT_FOUND),
++    UNAUTHENTICATED(1006, "Unauthenticated", HttpStatus.UNAUTHORIZED),
++    UNAUTHORIZED(1007, "You do not have permission", HttpStatus.FORBIDDEN),
++    INVALID_DOB(1008, "Invalid date of birth", HttpStatus.BAD_REQUEST),
++    ;
++
++    ErrorCode(int code, String message, HttpStatusCode httpStatusCode) {
++        this.code = code;
++        this.message = message;
++        this.httpStatusCode = httpStatusCode;
++    }
++
++    private int code;
++    private String message;
++    private HttpStatusCode httpStatusCode;
++
++}
+Index: identity-service/src/main/java/com/devteria/identity_service/dto/request/ApiResponse.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/identity-service/src/main/java/com/devteria/identity_service/dto/request/ApiResponse.java b/identity-service/src/main/java/com/devteria/identity_service/dto/request/ApiResponse.java
+new file mode 100644
+--- /dev/null	(date 1727791584202)
++++ b/identity-service/src/main/java/com/devteria/identity_service/dto/request/ApiResponse.java	(date 1727791584202)
+@@ -0,0 +1,23 @@
++package com.devteria.identity_service.dto.request;
++
++import com.fasterxml.jackson.annotation.JsonInclude;
++import lombok.*;
++import lombok.experimental.FieldDefaults;
++
++
++
++@Data
++@Builder
++@NoArgsConstructor
++@AllArgsConstructor
++@FieldDefaults(level = AccessLevel.PRIVATE)
++//Annotation này để khai báo Json biết khi chuyển Obj sang Json thì không hiện gt NULL
++@JsonInclude(JsonInclude.Include.NON_NULL)
++public class ApiResponse<T> {
++    @Builder.Default
++    int code = 1000;
++    String message;
++    T result;
++
++
++}
